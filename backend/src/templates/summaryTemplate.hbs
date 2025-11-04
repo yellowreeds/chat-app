@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Meeting Summary</title>
+  <style>
+    @page {
+      margin: 24mm 20mm 24mm 20mm;
+      /* top, right, bottom, left */
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      /* Let @page handle spacing */
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .content {
+      margin: 20px;
+      white-space: normal;
+    }
+
+    ul.main-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    ul.main-list>li {
+      margin-bottom: 12px;
+    }
+
+    ul.sub-list {
+      list-style-type: none;
+      padding-left: 20px;
+      margin-top: 6px;
+    }
+
+    ul.sub-list>li {
+      margin-bottom: 4px;
+    }
+
+    strong {
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Meeting Summary</h1>
+  <div class="content">
+    {{{summary}}}
+  </div>
+</body>
+
+</html>

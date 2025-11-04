@@ -1,0 +1,3817 @@
+[
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Morning team—final build for the launch candidate is up on the staging server.",
+    "timestamp": "2025-03-20T08:42:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Morning team—final build for the launch candidate is up on the staging server."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Nice! I’ll start running the smoke tests before noon and log any UI issues.",
+    "timestamp": "2025-03-20T09:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Nice! I’ll start running the smoke tests before noon and log any UI issues."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Marketing side is prepped. We’ll push teaser posts once QA signs off.",
+    "timestamp": "2025-03-20T09:24:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Marketing side is prepped. We’ll push teaser posts once QA signs off."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Remember to verify that the subscription tiering page matches the new pricing matrix.",
+    "timestamp": "2025-03-20T09:47:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Remember to verify that the subscription tiering page matches the new pricing matrix."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Good catch—pricing JSON was still pointing to last quarter’s values, fixing now.",
+    "timestamp": "2025-03-20T10:02:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Good catch—pricing JSON was still pointing to last quarter’s values, fixing now."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Checkout page passes all tests on Chrome and Edge, still validating Safari.",
+    "timestamp": "2025-03-20T11:33:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Checkout page passes all tests on Chrome and Edge, still validating Safari."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Do we have the final tagline locked? Need it for press materials.",
+    "timestamp": "2025-03-20T12:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Do we have the final tagline locked? Need it for press materials."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Yep—‘Smart Chat, Local Mind’. Approved yesterday with the execs.",
+    "timestamp": "2025-03-20T12:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Yep—‘Smart Chat, Local Mind’. Approved yesterday with the execs."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Deploy script for the release branch will freeze dependencies at commit a39f6.",
+    "timestamp": "2025-03-20T13:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Deploy script for the release branch will freeze dependencies at commit a39f6."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Heads-up: found a delay on the notification socket when multiple users join simultaneously.",
+    "timestamp": "2025-03-20T14:02:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Heads-up: found a delay on the notification socket when multiple users join simultaneously."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: I’ll profile that—likely the emit queue; will add debounce on join events.",
+    "timestamp": "2025-03-20T14:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: I’ll profile that—likely the emit queue; will add debounce on join events."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Social posts scheduled for Monday 9 AM KST. Landing page draft is queued for approval.",
+    "timestamp": "2025-03-21T03:02:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Social posts scheduled for Monday 9 AM KST. Landing page draft is queued for approval."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: QA passed on all devices—minor UI overflow on iPhone SE, logged as low priority.",
+    "timestamp": "2025-03-21T04:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: QA passed on all devices—minor UI overflow on iPhone SE, logged as low priority."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Great. Code freeze tonight at 11 PM. No more merges after that.",
+    "timestamp": "2025-03-21T05:44:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Great. Code freeze tonight at 11 PM. No more merges after that."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Press release ready for translation. Need final quote from the CEO section.",
+    "timestamp": "2025-03-21T07:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Press release ready for translation. Need final quote from the CEO section."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: We should test the signup flow again after the dependency freeze, just in case.",
+    "timestamp": "2025-03-21T08:12:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: We should test the signup flow again after the dependency freeze, just in case."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Sure—run it tonight and post results here before midnight.",
+    "timestamp": "2025-03-21T09:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Sure—run it tonight and post results here before midnight."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Got feedback from beta users: they love the speed but want clearer onboarding steps.",
+    "timestamp": "2025-03-21T10:41:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Got feedback from beta users: they love the speed but want clearer onboarding steps."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: We can add a tooltip walkthrough on first login—lightweight and no new routes.",
+    "timestamp": "2025-03-21T11:22:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: We can add a tooltip walkthrough on first login—lightweight and no new routes."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Implemented guided tooltips; will be in next minor build.",
+    "timestamp": "2025-03-21T13:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Implemented guided tooltips; will be in next minor build."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Retesting done, all clear. Preparing final release notes now.",
+    "timestamp": "2025-03-22T02:08:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Retesting done, all clear. Preparing final release notes now."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Media kit assets uploaded to Drive folder ‘Launch2025’.",
+    "timestamp": "2025-03-22T03:41:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Media kit assets uploaded to Drive folder ‘Launch2025’."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Build verified, tagging release v1.0.0-local.",
+    "timestamp": "2025-03-22T04:19:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Build verified, tagging release v1.0.0-local."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: 🎉 Release candidate deployed successfully to production environment!",
+    "timestamp": "2025-03-22T05:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: 🎉 Release candidate deployed successfully to production environment!"
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Awesome—launch announcement queued for 9 AM Monday. Let’s monitor metrics closely.",
+    "timestamp": "2025-03-22T06:02:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Awesome—launch announcement queued for 9 AM Monday. Let’s monitor metrics closely."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Tracking signups and latency via Grafana dashboard—will share daily reports.",
+    "timestamp": "2025-03-22T07:11:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Tracking signups and latency via Grafana dashboard—will share daily reports."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Server CPU stable under 60% load with 200 concurrent users. Looks solid.",
+    "timestamp": "2025-03-22T09:33:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Server CPU stable under 60% load with 200 concurrent users. Looks solid."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Analytics shows peak engagement during 9–11 AM window. Recommend pushing notifications then.",
+    "timestamp": "2025-03-22T11:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Analytics shows peak engagement during 9–11 AM window. Recommend pushing notifications then."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Good idea—scheduled campaign messages for those hours. Added hashtags #LocalAI #SmartChat.",
+    "timestamp": "2025-03-22T12:44:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Good idea—scheduled campaign messages for those hours. Added hashtags #LocalAI #SmartChat."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Issue popped up: delayed push notifications on Android 14. Investigating.",
+    "timestamp": "2025-03-23T03:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Issue popped up: delayed push notifications on Android 14. Investigating."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Found the cause—Firebase token expiration not handled on reconnect. Pushing patch.",
+    "timestamp": "2025-03-23T03:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Found the cause—Firebase token expiration not handled on reconnect. Pushing patch."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Patched and redeployed. Confirmed instant delivery on test devices.",
+    "timestamp": "2025-03-23T04:02:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Patched and redeployed. Confirmed instant delivery on test devices."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Customer feedback’s rolling in—mostly positive, a few confused about pricing tiers.",
+    "timestamp": "2025-03-23T05:12:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Customer feedback’s rolling in—mostly positive, a few confused about pricing tiers."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: I’ll simplify the pricing tooltip—add example comparisons.",
+    "timestamp": "2025-03-23T06:02:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: I’ll simplify the pricing tooltip—add example comparisons."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Backend logs are clean. No major errors since last hotfix.",
+    "timestamp": "2025-03-23T07:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Backend logs are clean. No major errors since last hotfix."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Press picked up the story on TechAsia—traffic spiked by 120% this morning!",
+    "timestamp": "2025-03-23T08:12:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Press picked up the story on TechAsia—traffic spiked by 120% this morning!"
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: That explains the sudden surge in requests—we’ll autoscale to handle load.",
+    "timestamp": "2025-03-23T08:33:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: That explains the sudden surge in requests—we’ll autoscale to handle load."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Server autoscaling rules adjusted—max instances set to 6. Stable again.",
+    "timestamp": "2025-03-23T09:01:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Server autoscaling rules adjusted—max instances set to 6. Stable again."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: We should capture user testimonials now while engagement’s high.",
+    "timestamp": "2025-03-24T01:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: We should capture user testimonials now while engagement’s high."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Agreed—let’s ask early adopters for short quotes. I’ll prepare the outreach list.",
+    "timestamp": "2025-03-24T02:22:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Agreed—let’s ask early adopters for short quotes. I’ll prepare the outreach list."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Uptime holding steady at 99.96%. Great job everyone—let’s wrap this week strong.",
+    "timestamp": "2025-03-24T04:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Uptime holding steady at 99.96%. Great job everyone—let’s wrap this week strong."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: 👏 Congrats, team. I’ll archive logs and prep metrics report for our Monday review.",
+    "timestamp": "2025-03-24T05:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: 👏 Congrats, team. I’ll archive logs and prep metrics report for our Monday review."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Morning everyone, user reports say the dashboard chart isn’t loading for some accounts.",
+    "timestamp": "2025-03-25T08:12:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Morning everyone, user reports say the dashboard chart isn’t loading for some accounts."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Confirmed, 502 errors traced to the metrics API cache layer.",
+    "timestamp": "2025-03-25T08:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Confirmed, 502 errors traced to the metrics API cache layer."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Flushed Redis and traffic normalized, but the cache TTL logic might need tuning.",
+    "timestamp": "2025-03-25T08:54:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Flushed Redis and traffic normalized, but the cache TTL logic might need tuning."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Several customers also complained about slow login after the last update.",
+    "timestamp": "2025-03-25T09:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Several customers also complained about slow login after the last update."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Found the culprit—password hashing cost was bumped to 14 rounds, reverting to 12.",
+    "timestamp": "2025-03-25T09:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Found the culprit—password hashing cost was bumped to 14 rounds, reverting to 12."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Push notification delays reappeared for iOS builds; logs show 401 from Firebase.",
+    "timestamp": "2025-03-25T10:11:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Push notification delays reappeared for iOS builds; logs show 401 from Firebase."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Regenerated service keys and tokens; messages now deliver instantly.",
+    "timestamp": "2025-03-25T10:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Regenerated service keys and tokens; messages now deliver instantly."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Support ticket volume dropped by half after that fix, great job.",
+    "timestamp": "2025-03-25T11:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Support ticket volume dropped by half after that fix, great job."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Running stress test for concurrent uploads, targeting 500 sessions.",
+    "timestamp": "2025-03-25T12:04:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Running stress test for concurrent uploads, targeting 500 sessions."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: App froze twice when handling large image payloads; memory spikes above 1.5 GB.",
+    "timestamp": "2025-03-25T12:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: App froze twice when handling large image payloads; memory spikes above 1.5 GB."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Optimized compression and chunk uploads; RAM now stable under 800 MB.",
+    "timestamp": "2025-03-25T13:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Optimized compression and chunk uploads; RAM now stable under 800 MB."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Can we push that patch to production tonight? A few enterprise users already noticed lag.",
+    "timestamp": "2025-03-25T14:01:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Can we push that patch to production tonight? A few enterprise users already noticed lag."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Yeah, merging it after QA signs off.",
+    "timestamp": "2025-03-25T15:03:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Yeah, merging it after QA signs off."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: QA passed on staging, ready for deployment.",
+    "timestamp": "2025-03-25T16:12:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: QA passed on staging, ready for deployment."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Client from Seoul just reported the export CSV button not responding.",
+    "timestamp": "2025-03-26T02:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Client from Seoul just reported the export CSV button not responding."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Reproduced it—null pointer in export route when filename missing. Fixed and redeployed.",
+    "timestamp": "2025-03-26T03:12:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Reproduced it—null pointer in export route when filename missing. Fixed and redeployed."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Re-tested: export works fine now; CSV downloads complete in under 2 s.",
+    "timestamp": "2025-03-26T04:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Re-tested: export works fine now; CSV downloads complete in under 2 s."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: A few users mentioned seeing duplicated chat history after refreshing the page.",
+    "timestamp": "2025-03-26T05:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: A few users mentioned seeing duplicated chat history after refreshing the page."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Confirmed—it’s a socket reconnection bug, emits message twice on reconnect.",
+    "timestamp": "2025-03-26T05:41:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Confirmed—it’s a socket reconnection bug, emits message twice on reconnect."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Added a duplicate-message filter on client ID, should suppress repeats.",
+    "timestamp": "2025-03-26T06:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Added a duplicate-message filter on client ID, should suppress repeats."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Patch verified—no duplication even under 50 reconnect cycles.",
+    "timestamp": "2025-03-26T07:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Patch verified—no duplication even under 50 reconnect cycles."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Next up: reports of missing avatars after image upload.",
+    "timestamp": "2025-03-26T08:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Next up: reports of missing avatars after image upload."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: File rename step failing on Windows path encoding; switched to UUID-based naming.",
+    "timestamp": "2025-03-26T09:02:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: File rename step failing on Windows path encoding; switched to UUID-based naming."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Retested—avatars persist correctly after reload now.",
+    "timestamp": "2025-03-26T09:48:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Retested—avatars persist correctly after reload now."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Cool, can we ship the bug-fix summary to the support team?",
+    "timestamp": "2025-03-26T10:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Cool, can we ship the bug-fix summary to the support team?"
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Sure—drafting it with change IDs and commit references.",
+    "timestamp": "2025-03-26T11:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Sure—drafting it with change IDs and commit references."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Monitoring error rate—it’s down from 2.4 % to 0.2 %.",
+    "timestamp": "2025-03-26T12:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Monitoring error rate—it’s down from 2.4 % to 0.2 %."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Users in Japan say push notifications sometimes arrive twice.",
+    "timestamp": "2025-03-27T02:12:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Users in Japan say push notifications sometimes arrive twice."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: That’s from concurrent device registrations—added deduping in token manager.",
+    "timestamp": "2025-03-27T02:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: That’s from concurrent device registrations—added deduping in token manager."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Deployed fix, validated via two-device test; notifications now single-instance.",
+    "timestamp": "2025-03-27T03:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Deployed fix, validated via two-device test; notifications now single-instance."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Client happy with response time improvements—less than 200 ms median.",
+    "timestamp": "2025-03-27T03:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Client happy with response time improvements—less than 200 ms median."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Rolling out build 1.0.3-fix to all servers tonight 11 PM KST.",
+    "timestamp": "2025-03-27T04:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Rolling out build 1.0.3-fix to all servers tonight 11 PM KST."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Post-deploy validation checklist ready.",
+    "timestamp": "2025-03-27T05:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Post-deploy validation checklist ready."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: No new incidents reported overnight. Social sentiment mostly positive.",
+    "timestamp": "2025-03-27T23:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: No new incidents reported overnight. Social sentiment mostly positive."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: System uptime logged at 99.95 % for the week.",
+    "timestamp": "2025-03-28T00:22:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: System uptime logged at 99.95 % for the week."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Adding automated regression tests for upload flow before next sprint.",
+    "timestamp": "2025-03-28T01:44:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Adding automated regression tests for upload flow before next sprint."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Good call—let’s include cache invalidation and message delivery tests too.",
+    "timestamp": "2025-03-28T02:18:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Good call—let’s include cache invalidation and message delivery tests too."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Support dashboard updated with new ticket categories.",
+    "timestamp": "2025-03-28T03:32:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Support dashboard updated with new ticket categories."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Looks like we’re ready for the next maintenance cycle.",
+    "timestamp": "2025-03-28T04:11:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Looks like we’re ready for the next maintenance cycle."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Yup—schedule patch rollout for Monday morning and we’re golden.",
+    "timestamp": "2025-03-28T05:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Yup—schedule patch rollout for Monday morning and we’re golden."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Morning all, customer from Singapore says chat history disappeared after app update.",
+    "timestamp": "2025-03-29T07:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Morning all, customer from Singapore says chat history disappeared after app update."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Checking logs… looks like message index migration skipped one batch.",
+    "timestamp": "2025-03-29T08:02:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Checking logs… looks like message index migration skipped one batch."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Running patch script to re-index affected user groups now.",
+    "timestamp": "2025-03-29T08:33:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Running patch script to re-index affected user groups now."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Fixed—restored 98% of lost threads, remaining 2% flagged for manual review.",
+    "timestamp": "2025-03-29T09:01:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Fixed—restored 98% of lost threads, remaining 2% flagged for manual review."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Customer from Seoul reports delayed notifications again.",
+    "timestamp": "2025-03-29T10:22:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Customer from Seoul reports delayed notifications again."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Seems device-specific—Android 14 background restrictions cutting our push service.",
+    "timestamp": "2025-03-29T10:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Seems device-specific—Android 14 background restrictions cutting our push service."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Added high-priority notification channel and wake-lock flag for fix.",
+    "timestamp": "2025-03-29T11:12:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Added high-priority notification channel and wake-lock flag for fix."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Re-testing push flow… looks stable now on all Android builds.",
+    "timestamp": "2025-03-29T11:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Re-testing push flow… looks stable now on all Android builds."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Received a complaint about missing password-reset email.",
+    "timestamp": "2025-03-29T12:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Received a complaint about missing password-reset email."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: SMTP queue backlog after weekend deploy—cleared now.",
+    "timestamp": "2025-03-29T12:38:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: SMTP queue backlog after weekend deploy—cleared now."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Added retry logic for email service and reduced timeout to 5 s.",
+    "timestamp": "2025-03-29T13:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Added retry logic for email service and reduced timeout to 5 s."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: User from Tokyo complained about incorrect language setting after login.",
+    "timestamp": "2025-03-30T01:08:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: User from Tokyo complained about incorrect language setting after login."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Default locale fallback mis-set to English. Adjusted to use device region first.",
+    "timestamp": "2025-03-30T01:31:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Default locale fallback mis-set to English. Adjusted to use device region first."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Pushed fix; tested with Korean and Japanese locales—works properly.",
+    "timestamp": "2025-03-30T02:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Pushed fix; tested with Korean and Japanese locales—works properly."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Support ticket mentions repeated logouts on iPhone 13.",
+    "timestamp": "2025-03-30T03:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Support ticket mentions repeated logouts on iPhone 13."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Token refresh interval too short; extended validity to 7 days.",
+    "timestamp": "2025-03-30T04:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Token refresh interval too short; extended validity to 7 days."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Validated on iOS simulator—no forced logout after 24 h now.",
+    "timestamp": "2025-03-30T04:32:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Validated on iOS simulator—no forced logout after 24 h now."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Three customers said file attachments fail above 20 MB.",
+    "timestamp": "2025-03-30T05:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Three customers said file attachments fail above 20 MB."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Backend cap set to 25 MB; added compression routine for anything larger.",
+    "timestamp": "2025-03-30T05:41:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Backend cap set to 25 MB; added compression routine for anything larger."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Patch deployed. Upload speeds slightly improved too.",
+    "timestamp": "2025-03-30T06:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Patch deployed. Upload speeds slightly improved too."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Customer from Jakarta reported timestamp mismatch in chat bubbles.",
+    "timestamp": "2025-03-31T00:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Customer from Jakarta reported timestamp mismatch in chat bubbles."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Timezone conversion off by +9h due to server UTC config. Fixed and redeployed.",
+    "timestamp": "2025-03-31T01:22:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Timezone conversion off by +9h due to server UTC config. Fixed and redeployed."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Verified—timestamps now consistent across all clients.",
+    "timestamp": "2025-03-31T01:48:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Verified—timestamps now consistent across all clients."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: User feedback: app crashes when viewing archived messages.",
+    "timestamp": "2025-03-31T02:41:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: User feedback: app crashes when viewing archived messages."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Null pointer in archive parser when message list empty—patched.",
+    "timestamp": "2025-03-31T03:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Null pointer in archive parser when message list empty—patched."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Crash resolved; memory footprint improved by 15 %.",
+    "timestamp": "2025-03-31T03:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Crash resolved; memory footprint improved by 15 %."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: We’ve had a spike in tickets from new users asking how to enable dark mode.",
+    "timestamp": "2025-04-01T00:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: We’ve had a spike in tickets from new users asking how to enable dark mode."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: UI setting buried under preferences—moving it to quick-access toolbar.",
+    "timestamp": "2025-04-01T01:11:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: UI setting buried under preferences—moving it to quick-access toolbar."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Done, new toggle visible right next to profile icon.",
+    "timestamp": "2025-04-01T01:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Done, new toggle visible right next to profile icon."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: One complaint from France about slow PDF preview loading.",
+    "timestamp": "2025-04-01T02:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: One complaint from France about slow PDF preview loading."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Enabled lazy loading and caching of thumbnails; performance doubled.",
+    "timestamp": "2025-04-01T03:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Enabled lazy loading and caching of thumbnails; performance doubled."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Monitoring analytics—average support response time now 3 min faster.",
+    "timestamp": "2025-04-01T04:22:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Monitoring analytics—average support response time now 3 min faster."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Positive review on the Play Store: ‘Great support, quick fixes!’",
+    "timestamp": "2025-04-01T05:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Positive review on the Play Store: ‘Great support, quick fixes!’"
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: 👏 Nice—let’s maintain that response time average for next week too.",
+    "timestamp": "2025-04-01T06:02:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: 👏 Nice—let’s maintain that response time average for next week too."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Will automate escalation for unresolved tickets older than 24 h.",
+    "timestamp": "2025-04-01T06:44:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Will automate escalation for unresolved tickets older than 24 h."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Customer from Canada reported typo in subscription confirmation email.",
+    "timestamp": "2025-04-02T00:32:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Customer from Canada reported typo in subscription confirmation email."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Fixed copy; also updated footer links to point to correct policy page.",
+    "timestamp": "2025-04-02T01:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Fixed copy; also updated footer links to point to correct policy page."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Deployed hotfix v1.0.4-support. Monitoring metrics post-update.",
+    "timestamp": "2025-04-02T01:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Deployed hotfix v1.0.4-support. Monitoring metrics post-update."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: All stable—no spike in error logs. Ticket backlog now under 20.",
+    "timestamp": "2025-04-02T02:22:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: All stable—no spike in error logs. Ticket backlog now under 20."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Nice recovery week, team. Let’s summarize major fixes for the monthly report.",
+    "timestamp": "2025-04-02T03:11:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Nice recovery week, team. Let’s summarize major fixes for the monthly report."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: On it—compiling support summary by region and issue category.",
+    "timestamp": "2025-04-02T03:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: On it—compiling support summary by region and issue category."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Once that’s ready, I’ll append system uptime metrics to the report.",
+    "timestamp": "2025-04-02T04:22:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Once that’s ready, I’ll append system uptime metrics to the report."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Report draft uploaded—please review by EOD.",
+    "timestamp": "2025-04-02T05:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Report draft uploaded—please review by EOD."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Reviewed and approved. Sending final version to stakeholders now.",
+    "timestamp": "2025-04-02T06:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Reviewed and approved. Sending final version to stakeholders now."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Morning team, time to plan Q2 features. Any must-haves from user feedback?",
+    "timestamp": "2025-04-03T07:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Morning team, time to plan Q2 features. Any must-haves from user feedback?"
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Dark mode scheduling and message pinning are the top two requests.",
+    "timestamp": "2025-04-03T07:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Dark mode scheduling and message pinning are the top two requests."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: We could bundle both under a UI enhancement sprint.",
+    "timestamp": "2025-04-03T08:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: We could bundle both under a UI enhancement sprint."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Also, adding quick-reply templates could improve engagement metrics.",
+    "timestamp": "2025-04-03T08:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Also, adding quick-reply templates could improve engagement metrics."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Marketing suggests including analytics export in Pro tier.",
+    "timestamp": "2025-04-03T09:12:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Marketing suggests including analytics export in Pro tier."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: We’ll need backend aggregation endpoints for that—medium complexity.",
+    "timestamp": "2025-04-03T09:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: We’ll need backend aggregation endpoints for that—medium complexity."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: I’ll draft specs for analytics export and assign subtasks in Jira.",
+    "timestamp": "2025-04-03T10:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: I’ll draft specs for analytics export and assign subtasks in Jira."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Let’s not forget accessibility improvements—keyboard shortcuts and screen-reader labels.",
+    "timestamp": "2025-04-03T11:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Let’s not forget accessibility improvements—keyboard shortcuts and screen-reader labels."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Great, that’ll help enterprise clients too.",
+    "timestamp": "2025-04-03T11:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Great, that’ll help enterprise clients too."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Timeline proposal: April 10 kickoff, three-week sprint.",
+    "timestamp": "2025-04-03T12:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Timeline proposal: April 10 kickoff, three-week sprint."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: That works—gives QA a week buffer before May release.",
+    "timestamp": "2025-04-03T12:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: That works—gives QA a week buffer before May release."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: We should integrate emoji reactions revamp in this sprint too.",
+    "timestamp": "2025-04-03T13:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: We should integrate emoji reactions revamp in this sprint too."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Emoji revamp has marketing value—let’s add custom packs for premium users.",
+    "timestamp": "2025-04-03T14:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Emoji revamp has marketing value—let’s add custom packs for premium users."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Custom emoji support requires CDN bucket per org; minor infra change.",
+    "timestamp": "2025-04-03T14:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Custom emoji support requires CDN bucket per org; minor infra change."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: We’ll reuse the existing asset pipeline—should be straightforward.",
+    "timestamp": "2025-04-03T15:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: We’ll reuse the existing asset pipeline—should be straightforward."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Please ensure upload moderation filters still apply to emoji images.",
+    "timestamp": "2025-04-03T15:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Please ensure upload moderation filters still apply to emoji images."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Yep, validation middleware covers that already.",
+    "timestamp": "2025-04-03T16:02:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Yep, validation middleware covers that already."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: We might want to beta-test reactions on internal channels first.",
+    "timestamp": "2025-04-04T01:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: We might want to beta-test reactions on internal channels first."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Good idea—collect feedback from 10 pilot users before rollout.",
+    "timestamp": "2025-04-04T01:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Good idea—collect feedback from 10 pilot users before rollout."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Got a request for threaded replies—should we push it to Q3?",
+    "timestamp": "2025-04-04T02:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Got a request for threaded replies—should we push it to Q3?"
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Threaded replies are complex; better to prototype next quarter.",
+    "timestamp": "2025-04-04T02:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Threaded replies are complex; better to prototype next quarter."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Let’s document it as a research item with UI mockups.",
+    "timestamp": "2025-04-04T03:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Let’s document it as a research item with UI mockups."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: I’ll create a feature proposal card with rough API design.",
+    "timestamp": "2025-04-04T03:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: I’ll create a feature proposal card with rough API design."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Adding cross-device sync improvements to backlog too.",
+    "timestamp": "2025-04-04T04:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Adding cross-device sync improvements to backlog too."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Will adjust websocket reconnect strategy for multi-device logins.",
+    "timestamp": "2025-04-04T05:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Will adjust websocket reconnect strategy for multi-device logins."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Quick-reply templates MVP ready by next Friday.",
+    "timestamp": "2025-04-05T00:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Quick-reply templates MVP ready by next Friday."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: UI mockups uploaded—please review alignment and spacing.",
+    "timestamp": "2025-04-05T01:32:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: UI mockups uploaded—please review alignment and spacing."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Mockups look clean. Maybe soften shadow on pinned messages.",
+    "timestamp": "2025-04-05T02:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Mockups look clean. Maybe soften shadow on pinned messages."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Adjusted design token and pushed updated CSS vars.",
+    "timestamp": "2025-04-05T02:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Adjusted design token and pushed updated CSS vars."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Planning to A/B test reaction latency with and without CDN caching.",
+    "timestamp": "2025-04-05T03:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Planning to A/B test reaction latency with and without CDN caching."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Good call—helps validate infra scaling before marketing push.",
+    "timestamp": "2025-04-05T03:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Good call—helps validate infra scaling before marketing push."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Build pipeline for CDN test ready; will collect metrics tomorrow.",
+    "timestamp": "2025-04-05T04:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Build pipeline for CDN test ready; will collect metrics tomorrow."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Please remember to snapshot before enabling cache layer.",
+    "timestamp": "2025-04-05T04:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Please remember to snapshot before enabling cache layer."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Pilot users reported smoother reactions; latency down 40 %.",
+    "timestamp": "2025-04-06T00:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Pilot users reported smoother reactions; latency down 40 %."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: That’s great—let’s finalize documentation and release notes.",
+    "timestamp": "2025-04-06T00:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: That’s great—let’s finalize documentation and release notes."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Release draft ready; will push to staging once QA signs off.",
+    "timestamp": "2025-04-06T01:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Release draft ready; will push to staging once QA signs off."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Awesome—feature sprint almost wrapped up ahead of schedule.",
+    "timestamp": "2025-04-06T02:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Awesome—feature sprint almost wrapped up ahead of schedule."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: I’ll generate the sprint summary PDF for the meeting.",
+    "timestamp": "2025-04-06T02:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: I’ll generate the sprint summary PDF for the meeting."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Perfect—let’s review results tomorrow and plan the rollout timeline.",
+    "timestamp": "2025-04-06T03:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Perfect—let’s review results tomorrow and plan the rollout timeline."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Morning team, time to review post-launch performance metrics.",
+    "timestamp": "2025-04-07T07:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Morning team, time to review post-launch performance metrics."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Average response time dropped from 780 ms to 620 ms after caching rollout.",
+    "timestamp": "2025-04-07T07:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Average response time dropped from 780 ms to 620 ms after caching rollout."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Nice improvement. CPU load still spikes above 70 % during peak hours though.",
+    "timestamp": "2025-04-07T08:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Nice improvement. CPU load still spikes above 70 % during peak hours though."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Could be due to FAISS vector indexing jobs running concurrently with user requests.",
+    "timestamp": "2025-04-07T08:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Could be due to FAISS vector indexing jobs running concurrently with user requests."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Let’s schedule embedding rebuilds for midnight to free daytime resources.",
+    "timestamp": "2025-04-07T09:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Let’s schedule embedding rebuilds for midnight to free daytime resources."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Done. Cron configured for 00:15 KST daily.",
+    "timestamp": "2025-04-07T09:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Done. Cron configured for 00:15 KST daily."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Error rate steady at 0.18 %; main issue now is delayed RAG queries under heavy load.",
+    "timestamp": "2025-04-07T10:12:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Error rate steady at 0.18 %; main issue now is delayed RAG queries under heavy load."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: We can shard the FAISS index by group ID to parallelize retrieval.",
+    "timestamp": "2025-04-07T10:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: We can shard the FAISS index by group ID to parallelize retrieval."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Prototype sharded index created—query latency improved 35 %.",
+    "timestamp": "2025-04-07T11:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Prototype sharded index created—query latency improved 35 %."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: That’s great. Let’s visualize before/after latency for the report.",
+    "timestamp": "2025-04-07T11:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: That’s great. Let’s visualize before/after latency for the report."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Generated comparison chart—RAG TTFR now ≈ 650 ms avg.",
+    "timestamp": "2025-04-07T12:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Generated comparison chart—RAG TTFR now ≈ 650 ms avg."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Also noticed memory fragmentation on long-running Ollama sessions.",
+    "timestamp": "2025-04-07T12:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Also noticed memory fragmentation on long-running Ollama sessions."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Restart policy set to refresh LLM container every 24 hours.",
+    "timestamp": "2025-04-07T13:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Restart policy set to refresh LLM container every 24 hours."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Users in Europe report slightly slower private-query responses.",
+    "timestamp": "2025-04-08T00:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Users in Europe report slightly slower private-query responses."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Probably latency from cross-region CDN. We can deploy a mirror node in Frankfurt.",
+    "timestamp": "2025-04-08T00:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Probably latency from cross-region CDN. We can deploy a mirror node in Frankfurt."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Frankfurt mirror live—pings improved by 90 ms on average.",
+    "timestamp": "2025-04-08T01:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Frankfurt mirror live—pings improved by 90 ms on average."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Now focusing on database read efficiency—index scan ratio too high.",
+    "timestamp": "2025-04-08T02:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Now focusing on database read efficiency—index scan ratio too high."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Added compound index on (groupId, createdAt); query cost down 40 %.",
+    "timestamp": "2025-04-08T02:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Added compound index on (groupId, createdAt); query cost down 40 %."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Let’s capture these optimizations for the next performance section in the paper.",
+    "timestamp": "2025-04-08T03:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Let’s capture these optimizations for the next performance section in the paper."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Agreed—I’ll document TTFT/TTFR improvements per model for Qwen, Mistral, and LLaMA.",
+    "timestamp": "2025-04-08T03:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Agreed—I’ll document TTFT/TTFR improvements per model for Qwen, Mistral, and LLaMA."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Need to rerun summarization latency tests with 500-message context soon.",
+    "timestamp": "2025-04-08T04:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Need to rerun summarization latency tests with 500-message context soon."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Can we also include CPU utilization graphs per model variant?",
+    "timestamp": "2025-04-08T04:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Can we also include CPU utilization graphs per model variant?"
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Yep, Grafana dashboards already record those metrics.",
+    "timestamp": "2025-04-08T05:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Yep, Grafana dashboards already record those metrics."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Private queries average 6 s full response now—acceptable range for local setup.",
+    "timestamp": "2025-04-08T05:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Private queries average 6 s full response now—acceptable range for local setup."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Memory usage stable at 7.9 GB peak; no swap activity observed.",
+    "timestamp": "2025-04-08T06:12:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Memory usage stable at 7.9 GB peak; no swap activity observed."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: QA noticed inconsistent TTFR on summarization between runs.",
+    "timestamp": "2025-04-09T00:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: QA noticed inconsistent TTFR on summarization between runs."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Could be OS scheduler variance; pinned LLM process to performance cores.",
+    "timestamp": "2025-04-09T01:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Could be OS scheduler variance; pinned LLM process to performance cores."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Re-measured—variance dropped to ± 0.2 s.",
+    "timestamp": "2025-04-09T01:42:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Re-measured—variance dropped to ± 0.2 s."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Users asking if latency data will be public—worth adding to docs?",
+    "timestamp": "2025-04-09T02:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Users asking if latency data will be public—worth adding to docs?"
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Sure—let’s publish a summary chart on the project site.",
+    "timestamp": "2025-04-09T02:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Sure—let’s publish a summary chart on the project site."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: I’ll sanitize internal metrics and prepare visuals.",
+    "timestamp": "2025-04-09T03:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: I’ll sanitize internal metrics and prepare visuals."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: We should include a note comparing Qwen vs LLaMA efficiency in the appendix.",
+    "timestamp": "2025-04-09T03:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: We should include a note comparing Qwen vs LLaMA efficiency in the appendix."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Good idea—adds weight to Reviewer 1’s comparison request.",
+    "timestamp": "2025-04-09T04:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Good idea—adds weight to Reviewer 1’s comparison request."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Drafted the comparison table—LLaMA 3.1 8B q4_K_M fastest TTFT.",
+    "timestamp": "2025-04-09T05:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Drafted the comparison table—LLaMA 3.1 8B q4_K_M fastest TTFT."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Let’s verify consistency across 10 runs per model before publishing.",
+    "timestamp": "2025-04-09T05:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Let’s verify consistency across 10 runs per model before publishing."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: All done—averages stable within ± 0.1 s range.",
+    "timestamp": "2025-04-09T06:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: All done—averages stable within ± 0.1 s range."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Awesome, let’s wrap with a summary for the performance section.",
+    "timestamp": "2025-04-10T00:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Awesome, let’s wrap with a summary for the performance section."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Writing final report: load metrics, memory, and RAG latency results.",
+    "timestamp": "2025-04-10T00:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Writing final report: load metrics, memory, and RAG latency results."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Include a chart comparing TTFR of summarization vs private query.",
+    "timestamp": "2025-04-10T01:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Include a chart comparing TTFR of summarization vs private query."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Final draft exported as PDF—ready for review meeting tomorrow.",
+    "timestamp": "2025-04-10T01:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Final draft exported as PDF—ready for review meeting tomorrow."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Looks great. We’ll discuss next optimization goals at the review call.",
+    "timestamp": "2025-04-10T02:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Looks great. We’ll discuss next optimization goals at the review call."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Morning team, starting the monthly maintenance cycle today.",
+    "timestamp": "2025-04-11T07:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Morning team, starting the monthly maintenance cycle today."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Database backup completed at 07:00; verifying integrity checksum.",
+    "timestamp": "2025-04-11T07:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Database backup completed at 07:00; verifying integrity checksum."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Running container updates for Node and Mongo images.",
+    "timestamp": "2025-04-11T08:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Running container updates for Node and Mongo images."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Alert threshold adjusted—CPU warning now triggers at 80 %.",
+    "timestamp": "2025-04-11T08:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Alert threshold adjusted—CPU warning now triggers at 80 %."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Let’s also clean obsolete log indices to save disk space.",
+    "timestamp": "2025-04-11T09:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Let’s also clean obsolete log indices to save disk space."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Purged logs older than 90 days; freed about 3.2 GB.",
+    "timestamp": "2025-04-11T09:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Purged logs older than 90 days; freed about 3.2 GB."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Monitoring agent updated to v2.8; adds per-process memory charts.",
+    "timestamp": "2025-04-11T10:12:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Monitoring agent updated to v2.8; adds per-process memory charts."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Grafana alerts re-synced; test notification arrived successfully.",
+    "timestamp": "2025-04-11T10:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Grafana alerts re-synced; test notification arrived successfully."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: We’ve got a minor warning about SSL certificate expiry in 15 days.",
+    "timestamp": "2025-04-11T11:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: We’ve got a minor warning about SSL certificate expiry in 15 days."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Renewal request submitted to cert-bot; new cert auto-deploys tonight.",
+    "timestamp": "2025-04-11T11:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Renewal request submitted to cert-bot; new cert auto-deploys tonight."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Memory graph shows mild leak on Ollama process after 36 h uptime.",
+    "timestamp": "2025-04-11T12:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Memory graph shows mild leak on Ollama process after 36 h uptime."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Restart schedule shortened to every 18 h until next patch.",
+    "timestamp": "2025-04-11T12:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Restart schedule shortened to every 18 h until next patch."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Customer in Taiwan reported 10 min downtime last night—confirm root cause?",
+    "timestamp": "2025-04-12T00:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Customer in Taiwan reported 10 min downtime last night—confirm root cause?"
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Found transient DNS failure from ISP side, system auto-recovered.",
+    "timestamp": "2025-04-12T01:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Found transient DNS failure from ISP side, system auto-recovered."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Added secondary resolver to avoid recurrence.",
+    "timestamp": "2025-04-12T01:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Added secondary resolver to avoid recurrence."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Incident post-mortem logged with timeline and mitigation steps.",
+    "timestamp": "2025-04-12T02:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Incident post-mortem logged with timeline and mitigation steps."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Please archive screenshots from Grafana for audit trail.",
+    "timestamp": "2025-04-12T02:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Please archive screenshots from Grafana for audit trail."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Uploaded to Drive › Maintenance › April 2025.",
+    "timestamp": "2025-04-12T03:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Uploaded to Drive › Maintenance › April 2025."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Server temps steady < 65 °C even under simulated load.",
+    "timestamp": "2025-04-12T03:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Server temps steady < 65 °C even under simulated load."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Fan curve adjusted slightly to reduce noise in office unit.",
+    "timestamp": "2025-04-12T04:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Fan curve adjusted slightly to reduce noise in office unit."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Next task: verify nightly backup restores properly on sandbox server.",
+    "timestamp": "2025-04-13T00:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Next task: verify nightly backup restores properly on sandbox server."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Restore test succeeded; checksum identical to production copy.",
+    "timestamp": "2025-04-13T00:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Restore test succeeded; checksum identical to production copy."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: We can automate this restore check via cron weekly.",
+    "timestamp": "2025-04-13T01:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: We can automate this restore check via cron weekly."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Added it to automation script › verify_backup.sh.",
+    "timestamp": "2025-04-13T01:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Added it to automation script › verify_backup.sh."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Good—let’s document all automation under /devops/docs.",
+    "timestamp": "2025-04-13T02:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Good—let’s document all automation under /devops/docs."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Documentation updated and pushed to main.",
+    "timestamp": "2025-04-13T02:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Documentation updated and pushed to main."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Memory leak patch from upstream available—testing in staging.",
+    "timestamp": "2025-04-13T03:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Memory leak patch from upstream available—testing in staging."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Patch verified, applying to production tonight at 23:00.",
+    "timestamp": "2025-04-13T03:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Patch verified, applying to production tonight at 23:00."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Notify users about five-minute maintenance window in advance.",
+    "timestamp": "2025-04-13T04:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Notify users about five-minute maintenance window in advance."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Banner scheduled via system notice API.",
+    "timestamp": "2025-04-13T04:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Banner scheduled via system notice API."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Maintenance completed successfully; uptime 99.99 %.",
+    "timestamp": "2025-04-14T00:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Maintenance completed successfully; uptime 99.99 %."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: CPU temp dropped 2 °C after patch, confirming leak resolved.",
+    "timestamp": "2025-04-14T00:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: CPU temp dropped 2 °C after patch, confirming leak resolved."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Great work, team. Let’s archive logs and close this maintenance cycle.",
+    "timestamp": "2025-04-14T01:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Great work, team. Let’s archive logs and close this maintenance cycle."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Logs archived › maintenance_apr14.tar.gz in storage bucket.",
+    "timestamp": "2025-04-14T01:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Logs archived › maintenance_apr14.tar.gz in storage bucket."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: System health report exported for April; sending via -compile-basic.",
+    "timestamp": "2025-04-14T02:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: System health report exported for April; sending via -compile-basic."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Everything green across the board. Ready for post-maintenance review.",
+    "timestamp": "2025-04-14T02:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Everything green across the board. Ready for post-maintenance review."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Morning folks, let's go over the first-week campaign numbers.",
+    "timestamp": "2025-04-15T07:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Morning folks, let's go over the first-week campaign numbers."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: CTR on the launch email averaged 8.4 %, about double last quarter.",
+    "timestamp": "2025-04-15T07:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: CTR on the launch email averaged 8.4 %, about double last quarter."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Signup funnel shows 72 % completion; most drop-offs at the payment page.",
+    "timestamp": "2025-04-15T08:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Signup funnel shows 72 % completion; most drop-offs at the payment page."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: That’s likely due to form friction—adding Apple Pay could help mobile users.",
+    "timestamp": "2025-04-15T08:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: That’s likely due to form friction—adding Apple Pay could help mobile users."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Paid ads on LinkedIn delivered 2 × ROI versus Facebook this week.",
+    "timestamp": "2025-04-15T09:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Paid ads on LinkedIn delivered 2 × ROI versus Facebook this week."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Let’s reallocate 30 % of ad spend toward LinkedIn for week 2.",
+    "timestamp": "2025-04-15T09:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Let’s reallocate 30 % of ad spend toward LinkedIn for week 2."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Also, referral traffic spiked after the YouTube review went live.",
+    "timestamp": "2025-04-15T09:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Also, referral traffic spiked after the YouTube review went live."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: We should reach out to that creator for a follow-up collab in May.",
+    "timestamp": "2025-04-15T10:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: We should reach out to that creator for a follow-up collab in May."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Influencer campaign brought 1 200 new sign-ups—solid conversion.",
+    "timestamp": "2025-04-15T11:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Influencer campaign brought 1 200 new sign-ups—solid conversion."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Server handled the load fine—no noticeable latency spike.",
+    "timestamp": "2025-04-15T11:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Server handled the load fine—no noticeable latency spike."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Regional trend: SEA sign-ups up 40 %, EU flat, US down 5 %.",
+    "timestamp": "2025-04-15T12:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Regional trend: SEA sign-ups up 40 %, EU flat, US down 5 %."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Could tailor ad copy per region—highlight privacy in EU markets.",
+    "timestamp": "2025-04-15T12:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Could tailor ad copy per region—highlight privacy in EU markets."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Support tickets mentioning promo codes not applying correctly.",
+    "timestamp": "2025-04-16T00:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Support tickets mentioning promo codes not applying correctly."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Promo validation bug fixed—now accepts lowercase inputs too.",
+    "timestamp": "2025-04-16T01:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Promo validation bug fixed—now accepts lowercase inputs too."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Re-tested: coupons apply successfully across all regions.",
+    "timestamp": "2025-04-16T01:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Re-tested: coupons apply successfully across all regions."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Push notifications had a 14 % open rate—decent but could be higher.",
+    "timestamp": "2025-04-16T02:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Push notifications had a 14 % open rate—decent but could be higher."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: We can A/B test tone: friendly vs. direct calls-to-action.",
+    "timestamp": "2025-04-16T02:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: We can A/B test tone: friendly vs. direct calls-to-action."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Added variant push templates for the experiment—goes live tonight.",
+    "timestamp": "2025-04-16T03:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Added variant push templates for the experiment—goes live tonight."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Meanwhile, website bounce rate dropped from 48 % → 32 %.",
+    "timestamp": "2025-04-16T03:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Meanwhile, website bounce rate dropped from 48 % → 32 %."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Likely due to the new landing-page hero animation—people stick longer.",
+    "timestamp": "2025-04-16T04:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Likely due to the new landing-page hero animation—people stick longer."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Good to note for case study slides later.",
+    "timestamp": "2025-04-16T04:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Good to note for case study slides later."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Organic search impressions up 18 % since schema markup release.",
+    "timestamp": "2025-04-17T00:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Organic search impressions up 18 % since schema markup release."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Added meta descriptions for all blog posts—should boost CTR further.",
+    "timestamp": "2025-04-17T01:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Added meta descriptions for all blog posts—should boost CTR further."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Social engagement highest on posts with behind-the-scenes videos.",
+    "timestamp": "2025-04-17T01:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Social engagement highest on posts with behind-the-scenes videos."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Let’s plan bi-weekly mini-features highlighting dev team stories.",
+    "timestamp": "2025-04-17T02:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Let’s plan bi-weekly mini-features highlighting dev team stories."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: ROI summary: CAC $3.10 → $2.40 after optimizations.",
+    "timestamp": "2025-04-17T02:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: ROI summary: CAC $3.10 → $2.40 after optimizations."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: That’s strong. Retention after 7 days sits at 78 %.",
+    "timestamp": "2025-04-17T02:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: That’s strong. Retention after 7 days sits at 78 %."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Referral code adoption still low—maybe surface it more prominently in settings.",
+    "timestamp": "2025-04-17T03:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Referral code adoption still low—maybe surface it more prominently in settings."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Agreed—can add banner at signup success screen.",
+    "timestamp": "2025-04-17T03:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Agreed—can add banner at signup success screen."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Competitor launched a similar AI-chat feature yesterday.",
+    "timestamp": "2025-04-18T00:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Competitor launched a similar AI-chat feature yesterday."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Already checked it out—ours is faster and supports private queries.",
+    "timestamp": "2025-04-18T00:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Already checked it out—ours is faster and supports private queries."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: We should highlight privacy as a differentiator in our ads next week.",
+    "timestamp": "2025-04-18T01:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: We should highlight privacy as a differentiator in our ads next week."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Drafting new ad copy emphasizing local deployment and zero cloud dependency.",
+    "timestamp": "2025-04-18T01:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Drafting new ad copy emphasizing local deployment and zero cloud dependency."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Excellent—let’s measure sentiment change after rollout.",
+    "timestamp": "2025-04-18T02:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Excellent—let’s measure sentiment change after rollout."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Dashboard ready to track conversions per creative variant.",
+    "timestamp": "2025-04-18T02:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Dashboard ready to track conversions per creative variant."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Campaign iteration 2 goes live tomorrow 09 AM KST.",
+    "timestamp": "2025-04-18T03:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Campaign iteration 2 goes live tomorrow 09 AM KST."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Perfect—let’s regroup Monday to review conversion lift.",
+    "timestamp": "2025-04-18T03:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Perfect—let’s regroup Monday to review conversion lift."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Morning team, quarterly investor update call scheduled for next Tuesday.",
+    "timestamp": "2025-04-19T07:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Morning team, quarterly investor update call scheduled for next Tuesday."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Let’s prepare a summary of product milestones and growth metrics.",
+    "timestamp": "2025-04-19T07:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Let’s prepare a summary of product milestones and growth metrics."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: I’ll handle the technical KPI section—system uptime, latency, and user growth.",
+    "timestamp": "2025-04-19T08:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: I’ll handle the technical KPI section—system uptime, latency, and user growth."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Drafting infra summary—cost reduction 22 % from local LLM deployment.",
+    "timestamp": "2025-04-19T08:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Drafting infra summary—cost reduction 22 % from local LLM deployment."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Perfect. Investors will want ROI breakdown and 6-month roadmap.",
+    "timestamp": "2025-04-19T09:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Perfect. Investors will want ROI breakdown and 6-month roadmap."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: We can emphasize subscription retention at 79 % and steady ARR climb.",
+    "timestamp": "2025-04-19T09:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: We can emphasize subscription retention at 79 % and steady ARR climb."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Also highlight adoption of the multi-level summarization module by enterprise users.",
+    "timestamp": "2025-04-19T09:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Also highlight adoption of the multi-level summarization module by enterprise users."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Adding visuals: latency chart, usage heatmap, and customer geography split.",
+    "timestamp": "2025-04-19T10:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Adding visuals: latency chart, usage heatmap, and customer geography split."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Investor deck should start with mission slide—‘Private AI for Real-World Teams’.",
+    "timestamp": "2025-04-19T10:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Investor deck should start with mission slide—‘Private AI for Real-World Teams’."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Got it. Including market comparison vs. cloud-based chat competitors.",
+    "timestamp": "2025-04-19T11:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Got it. Including market comparison vs. cloud-based chat competitors."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Benchmarked cost per query—local stack 68 % cheaper than API usage.",
+    "timestamp": "2025-04-19T11:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Benchmarked cost per query—local stack 68 % cheaper than API usage."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Good angle—adds credibility to self-hosting strategy.",
+    "timestamp": "2025-04-19T12:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Good angle—adds credibility to self-hosting strategy."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Any updates on partnership talks with enterprise clients?",
+    "timestamp": "2025-04-20T00:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Any updates on partnership talks with enterprise clients?"
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Pilot program confirmed with fintech group in Seoul—starting May 5.",
+    "timestamp": "2025-04-20T00:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Pilot program confirmed with fintech group in Seoul—starting May 5."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: They’ll use our RAG engine for internal document retrieval—high visibility use case.",
+    "timestamp": "2025-04-20T01:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: They’ll use our RAG engine for internal document retrieval—high visibility use case."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Excellent. Add that to the deck as ‘Strategic Pilot Engagements’.",
+    "timestamp": "2025-04-20T01:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Excellent. Add that to the deck as ‘Strategic Pilot Engagements’."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Forecasting 15 % MRR growth next quarter based on current conversions.",
+    "timestamp": "2025-04-20T02:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Forecasting 15 % MRR growth next quarter based on current conversions."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: We should prepare sensitivity scenarios for investor Q&A.",
+    "timestamp": "2025-04-20T02:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: We should prepare sensitivity scenarios for investor Q&A."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Working on financial simulation sheet—ARR, churn, and CAC projections.",
+    "timestamp": "2025-04-20T03:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Working on financial simulation sheet—ARR, churn, and CAC projections."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Let’s simplify slide 8—too text-heavy for a five-minute slot.",
+    "timestamp": "2025-04-20T03:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Let’s simplify slide 8—too text-heavy for a five-minute slot."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Condensed to three bullets: product adoption, retention, and infrastructure savings.",
+    "timestamp": "2025-04-20T04:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Condensed to three bullets: product adoption, retention, and infrastructure savings."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Adding one slide on ESG and data-privacy compliance; investors like that angle.",
+    "timestamp": "2025-04-20T04:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Adding one slide on ESG and data-privacy compliance; investors like that angle."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Perfect. Mention ISO 27001 audit progress too.",
+    "timestamp": "2025-04-20T04:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Perfect. Mention ISO 27001 audit progress too."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Added. Certification expected June 15 per auditor timeline.",
+    "timestamp": "2025-04-20T05:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Added. Certification expected June 15 per auditor timeline."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: We should include a short demo clip for investors who haven’t used the app yet.",
+    "timestamp": "2025-04-21T00:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: We should include a short demo clip for investors who haven’t used the app yet."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: I’ll record a 60-second walkthrough showing summarization and private chat.",
+    "timestamp": "2025-04-21T01:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: I’ll record a 60-second walkthrough showing summarization and private chat."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Make sure it runs locally on laptop—no cloud inference to keep message consistent.",
+    "timestamp": "2025-04-21T01:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Make sure it runs locally on laptop—no cloud inference to keep message consistent."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Updated deck with demo link and summary numbers.",
+    "timestamp": "2025-04-21T02:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Updated deck with demo link and summary numbers."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Preview looks solid—only slide 11 needs font consistency fix.",
+    "timestamp": "2025-04-21T02:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Preview looks solid—only slide 11 needs font consistency fix."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Fixed typography and exported final PDF v2.",
+    "timestamp": "2025-04-21T03:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Fixed typography and exported final PDF v2."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Excellent—rehearsal call tomorrow 10 AM KST.",
+    "timestamp": "2025-04-21T03:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Excellent—rehearsal call tomorrow 10 AM KST."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Noted. I’ll handle Q&A responses on technical scalability.",
+    "timestamp": "2025-04-21T03:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Noted. I’ll handle Q&A responses on technical scalability."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: And I’ll summarize architecture decisions to back the scalability claim.",
+    "timestamp": "2025-04-21T04:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: And I’ll summarize architecture decisions to back the scalability claim."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Investors confirmed attendance—three VC firms, one angel.",
+    "timestamp": "2025-04-22T00:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Investors confirmed attendance—three VC firms, one angel."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Good—let’s share the final deck privately an hour before the call.",
+    "timestamp": "2025-04-22T00:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Good—let’s share the final deck privately an hour before the call."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: All materials sent. Recording setup tested for smooth session.",
+    "timestamp": "2025-04-22T01:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: All materials sent. Recording setup tested for smooth session."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Great teamwork—let’s aim to close with a strong funding narrative.",
+    "timestamp": "2025-04-22T01:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Great teamwork—let’s aim to close with a strong funding narrative."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Absolutely. Proud of the progress so far, team.",
+    "timestamp": "2025-04-22T02:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Absolutely. Proud of the progress so far, team."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Morning team, internal demo build v1.1 is ready for review.",
+    "timestamp": "2025-04-23T07:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Morning team, internal demo build v1.1 is ready for review."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Installing now—looks like the onboarding animation plays smoothly.",
+    "timestamp": "2025-04-23T07:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Installing now—looks like the onboarding animation plays smoothly."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Backend metrics show login latency down to 290 ms, that’s solid.",
+    "timestamp": "2025-04-23T08:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Backend metrics show login latency down to 290 ms, that’s solid."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: UI feedback: the chat input bar still overlaps on smaller iPhones.",
+    "timestamp": "2025-04-23T08:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: UI feedback: the chat input bar still overlaps on smaller iPhones."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Yup, repro’d it. I’ll tweak the safe-area padding in the next commit.",
+    "timestamp": "2025-04-23T09:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Yup, repro’d it. I’ll tweak the safe-area padding in the next commit."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Marketing noted the color palette feels slightly cold—can we warm it up?",
+    "timestamp": "2025-04-23T09:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Marketing noted the color palette feels slightly cold—can we warm it up?"
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Adjusted brand blue hue +5 ° toward cyan; refreshed theme tokens.",
+    "timestamp": "2025-04-23T09:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Adjusted brand blue hue +5 ° toward cyan; refreshed theme tokens."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Much better on dark-mode screens, nice tweak.",
+    "timestamp": "2025-04-23T10:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Much better on dark-mode screens, nice tweak."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Noticed the summary popup sometimes hides behind chat messages.",
+    "timestamp": "2025-04-23T10:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Noticed the summary popup sometimes hides behind chat messages."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Fixed z-index layering and added fade-in animation.",
+    "timestamp": "2025-04-23T11:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Fixed z-index layering and added fade-in animation."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: We’re testing -compile-advanced mode; renders full report within 12 s.",
+    "timestamp": "2025-04-23T11:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: We’re testing -compile-advanced mode; renders full report within 12 s."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: That’s 30 % faster than last iteration—nice optimization.",
+    "timestamp": "2025-04-23T12:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: That’s 30 % faster than last iteration—nice optimization."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Beta users in the office say the PDF summary looks cleaner now.",
+    "timestamp": "2025-04-23T12:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Beta users in the office say the PDF summary looks cleaner now."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Added Pretendard font embed for Korean characters—solves missing glyphs.",
+    "timestamp": "2025-04-23T12:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Added Pretendard font embed for Korean characters—solves missing glyphs."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Reviewing analytics overlay: shows token count per summarization level.",
+    "timestamp": "2025-04-23T13:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Reviewing analytics overlay: shows token count per summarization level."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Can we label them Basic / Intermediate / Advanced for readability?",
+    "timestamp": "2025-04-23T13:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Can we label them Basic / Intermediate / Advanced for readability?"
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Done. Labels render dynamically by template type now.",
+    "timestamp": "2025-04-23T14:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Done. Labels render dynamically by template type now."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Great. The demo video for investors will use this build.",
+    "timestamp": "2025-04-23T14:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Great. The demo video for investors will use this build."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Running extended test: 400-message summarization handled without OOM.",
+    "timestamp": "2025-04-24T00:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Running extended test: 400-message summarization handled without OOM."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Memory footprint peaked 8.1 GB, stable under 9 GB limit—perfect.",
+    "timestamp": "2025-04-24T01:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Memory footprint peaked 8.1 GB, stable under 9 GB limit—perfect."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: UI micro-lag fixed after switching React memoization on message list.",
+    "timestamp": "2025-04-24T01:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: UI micro-lag fixed after switching React memoization on message list."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: QA mentioned hover tooltips flicker on Safari.",
+    "timestamp": "2025-04-24T02:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: QA mentioned hover tooltips flicker on Safari."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Patched CSS transition property; stable now on WebKit browsers.",
+    "timestamp": "2025-04-24T02:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Patched CSS transition property; stable now on WebKit browsers."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Added version watermark on footer for internal builds.",
+    "timestamp": "2025-04-24T02:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Added version watermark on footer for internal builds."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Let’s also test accessibility with screen-readers before public demo.",
+    "timestamp": "2025-04-25T00:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Let’s also test accessibility with screen-readers before public demo."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: VoiceOver reads all major UI elements correctly—passes baseline.",
+    "timestamp": "2025-04-25T00:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: VoiceOver reads all major UI elements correctly—passes baseline."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Added alt-text generator for uploaded media; improves accessibility score.",
+    "timestamp": "2025-04-25T01:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Added alt-text generator for uploaded media; improves accessibility score."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: All issues resolved from last QA sheet—ready for demo rehearsal.",
+    "timestamp": "2025-04-25T01:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: All issues resolved from last QA sheet—ready for demo rehearsal."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Excellent. Presentation starts tomorrow 10 AM sharp.",
+    "timestamp": "2025-04-25T02:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Excellent. Presentation starts tomorrow 10 AM sharp."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: I’ll handle live summarization demo; please record backup video just in case.",
+    "timestamp": "2025-04-25T02:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: I’ll handle live summarization demo; please record backup video just in case."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Backup recording done—60 fps with captions enabled.",
+    "timestamp": "2025-04-25T03:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Backup recording done—60 fps with captions enabled."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Live demo successful! Audience impressed with local summarization speed.",
+    "timestamp": "2025-04-26T00:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Live demo successful! Audience impressed with local summarization speed."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Round of applause, team. Logs show zero runtime errors during session.",
+    "timestamp": "2025-04-26T01:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Round of applause, team. Logs show zero runtime errors during session."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: We should clip the highlight moments for social media.",
+    "timestamp": "2025-04-26T01:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: We should clip the highlight moments for social media."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Already editing—will export short reels by Monday.",
+    "timestamp": "2025-04-26T02:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Already editing—will export short reels by Monday."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Awesome job everyone, internal feedback overwhelmingly positive.",
+    "timestamp": "2025-04-26T02:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Awesome job everyone, internal feedback overwhelmingly positive."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Morning everyone, time for a quick post-launch debrief.",
+    "timestamp": "2025-04-27T07:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Morning everyone, time for a quick post-launch debrief."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: User satisfaction survey results are in—overall rating 4.7 out of 5.",
+    "timestamp": "2025-04-27T07:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: User satisfaction survey results are in—overall rating 4.7 out of 5."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Great score. Average session time up 22 % week-over-week.",
+    "timestamp": "2025-04-27T08:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Great score. Average session time up 22 % week-over-week."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Not bad at all—main feedback: people want smoother file previews.",
+    "timestamp": "2025-04-27T08:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Not bad at all—main feedback: people want smoother file previews."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: We can prioritize that for May sprint. Any stability issues reported?",
+    "timestamp": "2025-04-27T09:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: We can prioritize that for May sprint. Any stability issues reported?"
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: No crashes in the last seven days. Minor glitches only on Android tablets.",
+    "timestamp": "2025-04-27T09:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: No crashes in the last seven days. Minor glitches only on Android tablets."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Fix queued for that layout issue; already merged into dev branch.",
+    "timestamp": "2025-04-27T09:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Fix queued for that layout issue; already merged into dev branch."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Good. Marketing also requested a case-study blog post this week.",
+    "timestamp": "2025-04-27T10:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Good. Marketing also requested a case-study blog post this week."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Yep, we’ll highlight the privacy-first architecture and summarization speed.",
+    "timestamp": "2025-04-27T10:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Yep, we’ll highlight the privacy-first architecture and summarization speed."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: We should also publish benchmark charts for transparency.",
+    "timestamp": "2025-04-27T11:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: We should also publish benchmark charts for transparency."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Already prepping visuals comparing Qwen, Mistral, and LLaMA TTFR metrics.",
+    "timestamp": "2025-04-27T11:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Already prepping visuals comparing Qwen, Mistral, and LLaMA TTFR metrics."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Next goal: enhance summarization quality with contextual chunking.",
+    "timestamp": "2025-04-27T12:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Next goal: enhance summarization quality with contextual chunking."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Good call—Reviewer 1 will love that improvement.",
+    "timestamp": "2025-04-27T12:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Good call—Reviewer 1 will love that improvement."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: We can prototype hybrid chunk scoring combining TF-IDF and semantic rank.",
+    "timestamp": "2025-04-27T13:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: We can prototype hybrid chunk scoring combining TF-IDF and semantic rank."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Let’s also expand dataset with 1 000 synthetic chats for testing efficiency.",
+    "timestamp": "2025-04-27T13:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Let’s also expand dataset with 1 000 synthetic chats for testing efficiency."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Perfect for evaluating summarization response time at full context window.",
+    "timestamp": "2025-04-27T13:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Perfect for evaluating summarization response time at full context window."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Let’s schedule that as our next performance benchmark week.",
+    "timestamp": "2025-04-27T14:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Let’s schedule that as our next performance benchmark week."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Created a Jupyter script to auto-measure TTFT, TTFR, and GPU utilization.",
+    "timestamp": "2025-04-27T14:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Created a Jupyter script to auto-measure TTFT, TTFR, and GPU utilization."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Let’s log the outputs daily for trend analysis in Grafana.",
+    "timestamp": "2025-04-28T00:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Let’s log the outputs daily for trend analysis in Grafana."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Also thinking about adding a lightweight cache for repeated summarizations.",
+    "timestamp": "2025-04-28T01:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Also thinking about adding a lightweight cache for repeated summarizations."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Good idea—memoization could shave off 25 % compute time.",
+    "timestamp": "2025-04-28T01:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Good idea—memoization could shave off 25 % compute time."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: We’ll need to evaluate caching impact on context accuracy too.",
+    "timestamp": "2025-04-28T01:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: We’ll need to evaluate caching impact on context accuracy too."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Right—let’s run side-by-side tests: cached vs. fresh responses.",
+    "timestamp": "2025-04-28T02:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Right—let’s run side-by-side tests: cached vs. fresh responses."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: On the UX side, adding a loading indicator for long summaries might help.",
+    "timestamp": "2025-04-28T02:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: On the UX side, adding a loading indicator for long summaries might help."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Implemented progressive loading bar—adds a sense of responsiveness.",
+    "timestamp": "2025-04-28T03:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Implemented progressive loading bar—adds a sense of responsiveness."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Nice. Beta users said it feels smoother already.",
+    "timestamp": "2025-04-28T03:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Nice. Beta users said it feels smoother already."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Gathering more qualitative feedback from enterprise testers.",
+    "timestamp": "2025-04-29T00:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Gathering more qualitative feedback from enterprise testers."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: They’re asking for export to DOCX in addition to PDF summaries.",
+    "timestamp": "2025-04-29T01:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: They’re asking for export to DOCX in addition to PDF summaries."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Support added via python-docx; -compile now accepts format flag.",
+    "timestamp": "2025-04-29T01:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Support added via python-docx; -compile now accepts format flag."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Great addition. Helps academic users too.",
+    "timestamp": "2025-04-29T02:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Great addition. Helps academic users too."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Everything on the roadmap is progressing ahead of schedule.",
+    "timestamp": "2025-04-30T00:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Everything on the roadmap is progressing ahead of schedule."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: We’ll finalize May sprint goals tomorrow: caching, UX tweaks, and doc export.",
+    "timestamp": "2025-04-30T01:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: We’ll finalize May sprint goals tomorrow: caching, UX tweaks, and doc export."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Amazing momentum team—feels like we’re finally hitting our stride.",
+    "timestamp": "2025-04-30T01:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Amazing momentum team—feels like we’re finally hitting our stride."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Couldn’t agree more. Wrapping April with zero downtime and strong metrics.",
+    "timestamp": "2025-04-30T02:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Couldn’t agree more. Wrapping April with zero downtime and strong metrics."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: I’ll compile a monthly summary PDF and push it to the internal Drive.",
+    "timestamp": "2025-04-30T02:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: I’ll compile a monthly summary PDF and push it to the internal Drive."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Perfect wrap-up. May’s sprint is already lookin’ strong.",
+    "timestamp": "2025-04-30T03:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Perfect wrap-up. May’s sprint is already lookin’ strong."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Heads-up, QA reports multiple Android crashes after yesterday’s patch.",
+    "timestamp": "2025-05-01T07:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Heads-up, QA reports multiple Android crashes after yesterday’s patch."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Logcat shows null pointer in ChatListAdapter line 142.",
+    "timestamp": "2025-05-01T07:22:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Logcat shows null pointer in ChatListAdapter line 142."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Repro confirmed on Pixel 8 emulator with large group chats.",
+    "timestamp": "2025-05-01T07:38:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Repro confirmed on Pixel 8 emulator with large group chats."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Fix incoming—added null-safety guard and rebuilt APK 1.1.3-hotfix.",
+    "timestamp": "2025-05-01T07:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Fix incoming—added null-safety guard and rebuilt APK 1.1.3-hotfix."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Deploy that to internal testers first before store rollout.",
+    "timestamp": "2025-05-01T08:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Deploy that to internal testers first before store rollout."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Internal test started; crash-free rate already 98 %.",
+    "timestamp": "2025-05-01T08:27:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Internal test started; crash-free rate already 98 %."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Good. Also patching minor memory leak in socket reconnection handler.",
+    "timestamp": "2025-05-01T08:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Good. Also patching minor memory leak in socket reconnection handler."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Reminder: iOS push still duplicates messages occasionally.",
+    "timestamp": "2025-05-01T09:02:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Reminder: iOS push still duplicates messages occasionally."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Yep—added dedup ID check; will verify on TestFlight build.",
+    "timestamp": "2025-05-01T09:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Yep—added dedup ID check; will verify on TestFlight build."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Support says customer impact is low, but we should close tickets fast.",
+    "timestamp": "2025-05-01T09:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Support says customer impact is low, but we should close tickets fast."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Hotfix merged to main, build 1.1.3 tagged.",
+    "timestamp": "2025-05-01T09:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Hotfix merged to main, build 1.1.3 tagged."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: CI/CD pipeline green; deploying to 10 % user rollout channel.",
+    "timestamp": "2025-05-01T10:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: CI/CD pipeline green; deploying to 10 % user rollout channel."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Monitoring dashboards—no new error spikes so far.",
+    "timestamp": "2025-05-01T10:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Monitoring dashboards—no new error spikes so far."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Great. Let’s document patch notes clearly for the store listing.",
+    "timestamp": "2025-05-01T10:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Great. Let’s document patch notes clearly for the store listing."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Added change log: crash fix, socket stability, notification dedup.",
+    "timestamp": "2025-05-01T11:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Added change log: crash fix, socket stability, notification dedup."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Customer from Seoul still reports blank screen after login.",
+    "timestamp": "2025-05-01T11:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Customer from Seoul still reports blank screen after login."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Found root cause—API timeout when fetching summaries > 2 MB payload.",
+    "timestamp": "2025-05-01T11:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Found root cause—API timeout when fetching summaries > 2 MB payload."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Increased nginx proxy timeout to 60 s and re-deployed.",
+    "timestamp": "2025-05-01T12:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Increased nginx proxy timeout to 60 s and re-deployed."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Support confirmed issue resolved. Nice turnaround.",
+    "timestamp": "2025-05-01T12:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Support confirmed issue resolved. Nice turnaround."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Next: review memory profile after 8 hours runtime — possible slow leak.",
+    "timestamp": "2025-05-01T12:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Next: review memory profile after 8 hours runtime — possible slow leak."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Heap snapshot shows orphaned array in RAG cache, cleaning up.",
+    "timestamp": "2025-05-01T13:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Heap snapshot shows orphaned array in RAG cache, cleaning up."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Leak fixed, GC cycle time reduced 12 %.",
+    "timestamp": "2025-05-01T13:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Leak fixed, GC cycle time reduced 12 %."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Any update on Windows client installer?",
+    "timestamp": "2025-05-01T13:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Any update on Windows client installer?"
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Installer passes checksum but code-signing cert expired—renewing.",
+    "timestamp": "2025-05-01T14:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Installer passes checksum but code-signing cert expired—renewing."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Renewal done; MSI signed and uploaded to release bucket.",
+    "timestamp": "2025-05-01T14:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Renewal done; MSI signed and uploaded to release bucket."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Noticed increased API latency ~150 ms after patch.",
+    "timestamp": "2025-05-01T14:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Noticed increased API latency ~150 ms after patch."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Rolling back gzip level from 9 → 6 — latency normalized.",
+    "timestamp": "2025-05-01T15:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Rolling back gzip level from 9 → 6 — latency normalized."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Perfect. Let’s update ops docs with new defaults.",
+    "timestamp": "2025-05-01T15:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Perfect. Let’s update ops docs with new defaults."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Docs updated in /devops repo, tagged v1.1.4-notes.",
+    "timestamp": "2025-05-01T15:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Docs updated in /devops repo, tagged v1.1.4-notes."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Server uptime 99.98 % past 24 h—excellent stability.",
+    "timestamp": "2025-05-01T16:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Server uptime 99.98 % past 24 h—excellent stability."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Let’s prep a status summary for Monday report.",
+    "timestamp": "2025-05-01T16:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Let’s prep a status summary for Monday report."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Drafting report—will include before/after charts and error rates.",
+    "timestamp": "2025-05-01T16:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Drafting report—will include before/after charts and error rates."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: GPU utilization remains under 65 % during peak loads.",
+    "timestamp": "2025-05-02T00:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: GPU utilization remains under 65 % during peak loads."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Good sign; Ollama serving threads balanced properly now.",
+    "timestamp": "2025-05-02T00:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Good sign; Ollama serving threads balanced properly now."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Support team asks for ETA on next minor release.",
+    "timestamp": "2025-05-02T01:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Support team asks for ETA on next minor release."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Planning 1.1.5 for Tuesday—includes cache fix and UI minor tweaks.",
+    "timestamp": "2025-05-02T01:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Planning 1.1.5 for Tuesday—includes cache fix and UI minor tweaks."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: QA cycle scheduled Monday morning 8 AM.",
+    "timestamp": "2025-05-02T01:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: QA cycle scheduled Monday morning 8 AM."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Patch branch frozen; feature merges locked until release.",
+    "timestamp": "2025-05-02T02:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Patch branch frozen; feature merges locked until release."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: All good. Notify beta group about scheduled update.",
+    "timestamp": "2025-05-02T02:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: All good. Notify beta group about scheduled update."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Notification emails queued and sent to beta users.",
+    "timestamp": "2025-05-02T02:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Notification emails queued and sent to beta users."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Monitoring memory post-deploy—no anomalies.",
+    "timestamp": "2025-05-02T03:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Monitoring memory post-deploy—no anomalies."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Ticket #542 resolved: chat image preview loading instantly now.",
+    "timestamp": "2025-05-02T03:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Ticket #542 resolved: chat image preview loading instantly now."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Rolling out remaining 90 % of users this afternoon.",
+    "timestamp": "2025-05-02T03:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Rolling out remaining 90 % of users this afternoon."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Congrats team, zero critical bugs left open.",
+    "timestamp": "2025-05-02T04:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Congrats team, zero critical bugs left open."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: 🎉 Crash-free sessions at 99.93 %.",
+    "timestamp": "2025-05-02T04:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: 🎉 Crash-free sessions at 99.93 %."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Let’s document this cycle for future incident reference.",
+    "timestamp": "2025-05-02T04:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Let’s document this cycle for future incident reference."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Post-mortem report uploaded to Drive › Incidents › May 2025.",
+    "timestamp": "2025-05-02T05:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Post-mortem report uploaded to Drive › Incidents › May 2025."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Alright—closing bug escalation thread for this cycle. Great work!",
+    "timestamp": "2025-05-02T05:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Alright—closing bug escalation thread for this cycle. Great work!"
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Morning check-in: servers holding steady overnight.",
+    "timestamp": "2025-05-03T07:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Morning check-in: servers holding steady overnight."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Yep, uptime 100 % across all regions.",
+    "timestamp": "2025-05-03T07:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Yep, uptime 100 % across all regions."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Redis cache hit-rate improved to 94 %.",
+    "timestamp": "2025-05-03T07:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Redis cache hit-rate improved to 94 %."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Deploying updated monitoring agent v2.9 to prod.",
+    "timestamp": "2025-05-03T08:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Deploying updated monitoring agent v2.9 to prod."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Support ticket #556 about emoji reaction freeze reopened.",
+    "timestamp": "2025-05-03T08:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Support ticket #556 about emoji reaction freeze reopened."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Confirmed—race condition in reaction-count updater.",
+    "timestamp": "2025-05-03T08:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Confirmed—race condition in reaction-count updater."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Patched with atomic counter; merged PR #812.",
+    "timestamp": "2025-05-03T08:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Patched with atomic counter; merged PR #812."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: QA retested—no freeze after 500 rapid taps.",
+    "timestamp": "2025-05-03T09:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: QA retested—no freeze after 500 rapid taps."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Good. Also monitor CDN edge logs—saw a 404 spike.",
+    "timestamp": "2025-05-03T09:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Good. Also monitor CDN edge logs—saw a 404 spike."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: False alarm—cache purge triggered temp misses.",
+    "timestamp": "2025-05-03T09:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: False alarm—cache purge triggered temp misses."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Next: stress-test FAISS rebuild job tonight.",
+    "timestamp": "2025-05-03T09:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Next: stress-test FAISS rebuild job tonight."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Set batch_size = 256; previous run OOM’ed at 512.",
+    "timestamp": "2025-05-03T10:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Set batch_size = 256; previous run OOM’ed at 512."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Schedule test for 22:00 KST.",
+    "timestamp": "2025-05-03T10:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Schedule test for 22:00 KST."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Stress test passed—index rebuild completed in 11 m 20 s.",
+    "timestamp": "2025-05-03T10:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Stress test passed—index rebuild completed in 11 m 20 s."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: CPU peaked 73 %, RAM 8.4 GB—well within limits.",
+    "timestamp": "2025-05-03T10:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: CPU peaked 73 %, RAM 8.4 GB—well within limits."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Customer feedback: summary PDF footer date wrong format.",
+    "timestamp": "2025-05-03T11:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Customer feedback: summary PDF footer date wrong format."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Change to YYYY-MM-DD for consistency with ISO.",
+    "timestamp": "2025-05-03T11:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Change to YYYY-MM-DD for consistency with ISO."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Updated template and re-rendered example report.",
+    "timestamp": "2025-05-03T11:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Updated template and re-rendered example report."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: All good. Preparing patch notes for version 1.1.5.",
+    "timestamp": "2025-05-03T11:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: All good. Preparing patch notes for version 1.1.5."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Adding credit to QA team for quick response time.",
+    "timestamp": "2025-05-03T12:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Adding credit to QA team for quick response time."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Finance asked for bug fix hours to bill under maintenance.",
+    "timestamp": "2025-05-03T12:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Finance asked for bug fix hours to bill under maintenance."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Logged 8 dev hours + 2 QA hours for this cycle.",
+    "timestamp": "2025-05-03T12:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Logged 8 dev hours + 2 QA hours for this cycle."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: New issue: RAG query timeout on iOS when battery low mode on.",
+    "timestamp": "2025-05-03T12:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: New issue: RAG query timeout on iOS when battery low mode on."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Possible throttling by background fetch—testing alternative threading.",
+    "timestamp": "2025-05-03T13:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Possible throttling by background fetch—testing alternative threading."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Escalate to Apple dev forum if still fails after patch.",
+    "timestamp": "2025-05-03T13:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Escalate to Apple dev forum if still fails after patch."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Rebuilt app with background priority boost—issue gone.",
+    "timestamp": "2025-05-03T13:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Rebuilt app with background priority boost—issue gone."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Post-test: TTFR steady at 6.1 s on low-power mode.",
+    "timestamp": "2025-05-03T13:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Post-test: TTFR steady at 6.1 s on low-power mode."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Good numbers. Finalize release to App Store tonight.",
+    "timestamp": "2025-05-03T14:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Good numbers. Finalize release to App Store tonight."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Make sure metadata updated—previous build missed icon tag.",
+    "timestamp": "2025-05-03T14:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Make sure metadata updated—previous build missed icon tag."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Metadata fixed and re-uploaded to store console.",
+    "timestamp": "2025-05-03T14:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Metadata fixed and re-uploaded to store console."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Monitoring rollout now — no error trend visible.",
+    "timestamp": "2025-05-03T14:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Monitoring rollout now — no error trend visible."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Slack bot alert configured for new exceptions.",
+    "timestamp": "2025-05-03T15:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Slack bot alert configured for new exceptions."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Good. Also track RAG latency post-deploy for 24 h.",
+    "timestamp": "2025-05-03T15:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Good. Also track RAG latency post-deploy for 24 h."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Latency avg 6.3 s → 5.8 s after model warm-up.",
+    "timestamp": "2025-05-03T15:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Latency avg 6.3 s → 5.8 s after model warm-up."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Weekend watch rotation set—system monitored round the clock.",
+    "timestamp": "2025-05-03T15:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Weekend watch rotation set—system monitored round the clock."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Sunday patch includes log compression improvement.",
+    "timestamp": "2025-05-04T00:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Sunday patch includes log compression improvement."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Log size down 40 %, backup time cut in half.",
+    "timestamp": "2025-05-04T00:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Log size down 40 %, backup time cut in half."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Security scan clean—no vulns in latest deps.",
+    "timestamp": "2025-05-04T00:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Security scan clean—no vulns in latest deps."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Automated renewal for TLS cert validated successfully.",
+    "timestamp": "2025-05-04T01:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Automated renewal for TLS cert validated successfully."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Pen-test scheduled for Friday next week.",
+    "timestamp": "2025-05-04T01:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Pen-test scheduled for Friday next week."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Include auth token rotation in that scope.",
+    "timestamp": "2025-05-04T01:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Include auth token rotation in that scope."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Token rotation script completed without incident.",
+    "timestamp": "2025-05-04T01:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Token rotation script completed without incident."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Last 24 h: 0 critical, 2 minor issues auto-resolved.",
+    "timestamp": "2025-05-04T02:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Last 24 h: 0 critical, 2 minor issues auto-resolved."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Post cycle report template ready for Monday meeting.",
+    "timestamp": "2025-05-04T02:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Post cycle report template ready for Monday meeting."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Let’s tag this release as stable and archive branch.",
+    "timestamp": "2025-05-04T02:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Let’s tag this release as stable and archive branch."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Branch archived ✅",
+    "timestamp": "2025-05-04T02:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Branch archived ✅"
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Final dashboard shows MTTR 3.4 h—our best yet.",
+    "timestamp": "2025-05-04T03:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Final dashboard shows MTTR 3.4 h—our best yet."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Awesome job everyone. Closing incident cycle.",
+    "timestamp": "2025-05-04T03:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Awesome job everyone. Closing incident cycle."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Thanks for the hard work—time to rest before next sprint.",
+    "timestamp": "2025-05-04T03:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Thanks for the hard work—time to rest before next sprint."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: 👏 Team delivered under pressure again.",
+    "timestamp": "2025-05-04T03:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: 👏 Team delivered under pressure again."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Logging metrics for April-May trend analysis.",
+    "timestamp": "2025-05-04T04:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Logging metrics for April-May trend analysis."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Trend shows 42 % faster bug closure vs last quarter.",
+    "timestamp": "2025-05-04T04:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Trend shows 42 % faster bug closure vs last quarter."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Prepare slide for performance review tomorrow.",
+    "timestamp": "2025-05-04T04:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Prepare slide for performance review tomorrow."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Slides ready—graphs and summary included.",
+    "timestamp": "2025-05-04T04:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Slides ready—graphs and summary included."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: QA signed off—release officially closed.",
+    "timestamp": "2025-05-05T00:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: QA signed off—release officially closed."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Archiving tickets and closing Jira sprint.",
+    "timestamp": "2025-05-05T00:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Archiving tickets and closing Jira sprint."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Final review meeting at 10 AM—bring metrics charts.",
+    "timestamp": "2025-05-05T00:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Final review meeting at 10 AM—bring metrics charts."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Charts ready and shared to Drive › Review.",
+    "timestamp": "2025-05-05T01:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Charts ready and shared to Drive › Review."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Meeting complete—action item: automate incident report export.",
+    "timestamp": "2025-05-05T01:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Meeting complete—action item: automate incident report export."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Script written—exports summary JSON nightly.",
+    "timestamp": "2025-05-05T01:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Script written—exports summary JSON nightly."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Fantastic work, everyone. End of emergency patch cycle.",
+    "timestamp": "2025-05-05T01:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Fantastic work, everyone. End of emergency patch cycle."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Morning team, Q3 roadmap sync starting now.",
+    "timestamp": "2025-05-06T07:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Morning team, Q3 roadmap sync starting now."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Agenda: regional rollout, analytics dashboard, and AI roadmap.",
+    "timestamp": "2025-05-06T07:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Agenda: regional rollout, analytics dashboard, and AI roadmap."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Infra ready for Japan and Indonesia—servers provisioned yesterday.",
+    "timestamp": "2025-05-06T08:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Infra ready for Japan and Indonesia—servers provisioned yesterday."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Marketing suggests a localized tagline per region to boost engagement.",
+    "timestamp": "2025-05-06T08:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Marketing suggests a localized tagline per region to boost engagement."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Perfect. Emphasize our ‘Private AI’ message globally.",
+    "timestamp": "2025-05-06T08:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Perfect. Emphasize our ‘Private AI’ message globally."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Beta dashboard prototypes due next week; visual design at 80 %.",
+    "timestamp": "2025-05-06T09:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Beta dashboard prototypes due next week; visual design at 80 %."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: We’ll integrate feedback widgets so users can rate insights.",
+    "timestamp": "2025-05-06T09:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: We’ll integrate feedback widgets so users can rate insights."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Ops requested SLA definition for enterprise clients.",
+    "timestamp": "2025-05-06T10:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Ops requested SLA definition for enterprise clients."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Drafted SLA template—99.9 % uptime target and 4 h response window.",
+    "timestamp": "2025-05-06T10:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Drafted SLA template—99.9 % uptime target and 4 h response window."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Legal will review before we finalize the client contract.",
+    "timestamp": "2025-05-06T10:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Legal will review before we finalize the client contract."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Also need ESG slide updates for investor deck.",
+    "timestamp": "2025-05-06T11:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Also need ESG slide updates for investor deck."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Added section on carbon-neutral infrastructure plan.",
+    "timestamp": "2025-05-06T11:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Added section on carbon-neutral infrastructure plan."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Nice touch. Let’s share preview slides by tomorrow.",
+    "timestamp": "2025-05-06T12:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Nice touch. Let’s share preview slides by tomorrow."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: AI roadmap: summarization refinement + multi-modal input by July.",
+    "timestamp": "2025-05-07T00:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: AI roadmap: summarization refinement + multi-modal input by July."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Multi-modal prototype under test—voice commands stable at 95 % accuracy.",
+    "timestamp": "2025-05-07T00:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Multi-modal prototype under test—voice commands stable at 95 % accuracy."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: We should run usability sessions next week with pilot users.",
+    "timestamp": "2025-05-07T01:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: We should run usability sessions next week with pilot users."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Agreed—schedule 10 participants from enterprise clients.",
+    "timestamp": "2025-05-07T01:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Agreed—schedule 10 participants from enterprise clients."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: UX team preparing feedback forms and recording setup.",
+    "timestamp": "2025-05-07T02:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: UX team preparing feedback forms and recording setup."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Meanwhile, DevOps proposes nightly synthetic-load tests.",
+    "timestamp": "2025-05-07T02:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Meanwhile, DevOps proposes nightly synthetic-load tests."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Good for capacity planning—add them to CI schedule.",
+    "timestamp": "2025-05-07T02:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Good for capacity planning—add them to CI schedule."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Finance requested next-quarter cost forecast including CDN expansion.",
+    "timestamp": "2025-05-07T03:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Finance requested next-quarter cost forecast including CDN expansion."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Estimated +12 % infra cost offset by 18 % higher retention.",
+    "timestamp": "2025-05-07T03:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Estimated +12 % infra cost offset by 18 % higher retention."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Retention bump mostly from enterprise tier upsells.",
+    "timestamp": "2025-05-07T04:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Retention bump mostly from enterprise tier upsells."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Let’s visualize churn vs. retention by cohort for the deck.",
+    "timestamp": "2025-05-07T04:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Let’s visualize churn vs. retention by cohort for the deck."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Customer-success team happy with feedback tool adoption.",
+    "timestamp": "2025-05-07T05:00:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Customer-success team happy with feedback tool adoption."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Analytics show 41 % of users submit feedback within session.",
+    "timestamp": "2025-05-07T05:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Analytics show 41 % of users submit feedback within session."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: We can mine that data for sentiment trends later.",
+    "timestamp": "2025-05-07T05:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: We can mine that data for sentiment trends later."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Good idea—combine with summarization feedback for auto-fine-tune.",
+    "timestamp": "2025-05-07T06:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Good idea—combine with summarization feedback for auto-fine-tune."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Reminder: leadership meeting Friday 09 AM KST.",
+    "timestamp": "2025-05-08T00:25:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Reminder: leadership meeting Friday 09 AM KST."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Slide deck updated with growth projections and ESG items.",
+    "timestamp": "2025-05-08T00:50:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Slide deck updated with growth projections and ESG items."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Added appendix comparing local vs. cloud inference costs.",
+    "timestamp": "2025-05-08T01:15:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Added appendix comparing local vs. cloud inference costs."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Great visual—investors love seeing cost advantage clearly.",
+    "timestamp": "2025-05-08T01:40:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Great visual—investors love seeing cost advantage clearly."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Also highlight new RAG scalability results from May tests.",
+    "timestamp": "2025-05-08T02:05:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Also highlight new RAG scalability results from May tests."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Benchmarked: 500-message context processed in 11.8 s avg.",
+    "timestamp": "2025-05-08T02:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Benchmarked: 500-message context processed in 11.8 s avg."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Nice. Adding it to technical highlights section.",
+    "timestamp": "2025-05-08T02:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Nice. Adding it to technical highlights section."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Marketing will craft a blog post from that data.",
+    "timestamp": "2025-05-08T03:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Marketing will craft a blog post from that data."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Post should go live same day as investor briefing.",
+    "timestamp": "2025-05-08T03:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Post should go live same day as investor briefing."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Public-site performance optimized—LCP 1.6 s avg.",
+    "timestamp": "2025-05-08T04:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Public-site performance optimized—LCP 1.6 s avg."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Accessibility audit score 94 %—aiming for 98 % by June.",
+    "timestamp": "2025-05-08T04:35:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Accessibility audit score 94 %—aiming for 98 % by June."
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Perfect wrap for the week—strong metrics all around.",
+    "timestamp": "2025-05-09T00:30:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Perfect wrap for the week—strong metrics all around."
+  },
+  {
+    "sender": "Irving B",
+    "text": "Irving B: Let’s close with one goal: prep beta for analytics dashboard by June 10.",
+    "timestamp": "2025-05-09T00:55:00.000Z",
+    "messageCount": 1,
+    "summary": "Irving B: Let’s close with one goal: prep beta for analytics dashboard by June 10."
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: Copy that—tracking milestone as Q3-BETA-01.",
+    "timestamp": "2025-05-09T01:20:00.000Z",
+    "messageCount": 1,
+    "summary": "Mark S: Copy that—tracking milestone as Q3-BETA-01."
+  },
+  {
+    "sender": "Helly R",
+    "text": "Helly R: Team alignment complete. Wrapping this week strong!",
+    "timestamp": "2025-05-09T01:45:00.000Z",
+    "messageCount": 1,
+    "summary": "Helly R: Team alignment complete. Wrapping this week strong!"
+  },
+  {
+    "sender": "Dylan G",
+    "text": "Dylan G: Great energy everyone—see you Monday for sprint planning.",
+    "timestamp": "2025-05-09T02:10:00.000Z",
+    "messageCount": 1,
+    "summary": "Dylan G: Great energy everyone—see you Monday for sprint planning."
+  },
+  {
+    "sender": "ARIA-AI",
+    "text": "ARIA-AI: According to Section 4. Artificial Intelligence Implementation in Modern Enterprises, in the context of manufacturing, AI can be applied to tasks such as predictive maintenance. However, a specific example related to manufacturing is not explicitly mentioned. A possible inference based on the broader document context is that AI in manufacturing could involve using technologies like generative AI and reinforcement-learning systems (as mentioned in Section 3. Digital Transformation Landscape) to enable self-learning through feedback loops. This could potentially lead to increased efficiency and productivity, but specific details about its implementation are not provided. For a more detailed understanding of AI's role in manufacturing, additional context or information might be necessary.",
+    "timestamp": "2025-10-29T06:23:28.986Z",
+    "messageCount": 1,
+    "summary": "ARIA-AI: According to Section 4. Artificial Intelligence Implementation in Modern Enterprises, in the context of manufacturing, AI can be applied to tasks such "
+  },
+  {
+    "sender": "Mark S",
+    "text": "Mark S: ref1",
+    "timestamp": "2025-10-29T06:33:55.364Z",
+    "messageCount": 1,
+    "summary": "Mark S: ref1"
+  },
+  {
+    "sender": "ARIA-AI",
+    "text": "ARIA-AI: In manufacturing, AI is used to analyze data from machinery such as vibration, temperature, and acoustic readings. This analysis allows for predictive maintenance and process optimization, enabling companies to forecast potential failures days in advance. As a result, AI-driven maintenance platforms have been shown to reduce downtime, improve safety, and lower spare-parts inventory costs. For example, a South Korean automotive plant reported a 40% decrease in unscheduled maintenance events using an AI-driven platform. ARIA-AI: According to Section 3.4 Challenges and Risks, the common pitfalls that can prevent digital projects from scaling beyond pilot phases include: 1. Over-reliance on technology vendors without internal capability building. 2. Lack of executive sponsorship or alignment between IT and business units. 3. Insufficient data quality control leading to biased or unreliable AI outputs. 4. Cyber-security vulnerabilities introduced by rapid cloud migration. These obstacles can be addressed through a structured maturity model that progresses from digital awareness to full operational excellence, as outlined in the subsequent sections. ARIA-AI: The four macro-economic factors accelerating digital transformation worldwide are: 1. Global Competition: Emerging markets such as Southeast Asia and Africa are producing tech-savvy entrepreneurs, pressuring established firms to innovate faster. 2. Consumer Expectations: Hyper-personalization has become a baseline requirement; customers expect products and services tailored to their preferences in real time. 3. Regulatory Shifts: Data-privacy laws such as GDPR, CCPA, and Korea’s PIPA require organizations to implement rigorous data-management frameworks. 4. Technological Convergence: The overlap between AI, IoT, and blockchain is creating new business models—from predictive maintenance in manufacturing to tokenized digital assets in finance. These factors are mentioned in the excerpt [3.2 Economic Drivers] as driving forces behind the accelerating pace of digital transformation worldwide.",
+    "timestamp": "2025-10-29T06:34:31.599Z",
+    "messageCount": 3,
+    "summary": "ARIA-AI: In manufacturing, AI is used to analyze data from machinery such as vibration, temperature, and acoustic readings. This analysis allows for predictive "
+  }
+]

@@ -1,0 +1,51 @@
+batch,question,answer
+1,What was the initial plan for Helly R. to handle smoke tests?,Helly R. planned to start running smoke tests before noon and log any UI issues.
+1,What was the specific issue Mark S. found with the pricing JSON?,The pricing JSON was still pointing to last quarter's values.
+1,"What is the approved tagline for the product, and when was it approved?","The approved tagline is ""Smart Chat, Local Mind"", and it was approved yesterday with the execs."
+1,What is the commit hash for freezing dependencies during the release branch deployment?,The dependencies will be frozen at commit a39f6.
+1,"What was the observed delay Helly R. identified, and what was Mark S.'s proposed solution?","Helly R. found a delay on the notification socket when multiple users join simultaneously. Mark S. proposed to profile it, likely due to the emit queue, and add debounce on join events."
+1,"What time are the social posts scheduled for, and what is the status of the landing page draft?","Social posts are scheduled for Monday 9 AM KST, and the landing page draft is queued for approval."
+1,"What minor UI issue was found on the iPhone SE, and what priority was it assigned?","A minor UI overflow was found on the iPhone SE, and it was logged as low priority."
+1,"What is the deadline for the code freeze, and what does it imply for merges?","The code freeze is tonight at 11 PM, and no more merges will be allowed after that."
+1,"What positive feedback did beta users provide, and what was their request?",Beta users loved the speed but wanted clearer onboarding steps.
+1,"What was the primary metric Helly R. will be tracking, and where will she share reports?",Helly R. will be tracking signups and latency via a Grafana dashboard and will share daily reports.
+2,What was the initial complaint from France regarding the PDF preview?,The initial complaint from France was about slow PDF preview loading.
+2,How did Dylan G improve the performance of the PDF preview?,"Dylan G enabled lazy loading and caching of thumbnails, which doubled the performance."
+2,What was the average support response time improvement Helly R reported?,The average support response time was now 3 minutes faster.
+2,What action did Dylan G automate for unresolved tickets?,Dylan G automated escalation for unresolved tickets older than 24 hours.
+2,What hotfix version did Mark S deploy after a customer reported a typo in the subscription confirmation email?,Mark S deployed hotfix v1.0.4-support.
+2,What were the top two feature requests from user feedback for Q2 planning?,The top two requests were dark mode scheduling and message pinning.
+2,What complexity was estimated for adding backend aggregation endpoints for analytics export?,Backend aggregation endpoints were estimated to be of medium complexity.
+2,"What was the proposed timeline for the Q2 feature sprint, including the kickoff date and sprint duration?",The proposed timeline was an April 10 kickoff with a three-week sprint.
+2,How much did the pilot users report that reaction latency decreased?,Pilot users reported reaction latency down by 40%.
+2,"What was the average response time after the caching rollout, as reported by Helly R?",The average response time dropped from 780 ms to 620 ms after caching rollout.
+3,What was the average click-through rate (CTR) for the launch email?,The CTR on the launch email averaged 8.4%.
+3,"What percentage of users complete the signup funnel, and where do most drop off?","The signup funnel shows 72% completion, with most drop-offs occurring at the payment page."
+3,Which paid ad platform delivered a higher ROI compared to Facebook this week?,Paid ads on LinkedIn delivered 2x ROI versus Facebook this week.
+3,"What is the proposed reallocation for ad spend for week 2, and on which platform?",The proposal is to reallocate 30% of ad spend toward LinkedIn for week 2.
+3,What was the percentage increase in organic search impressions since the schema markup release?,Organic search impressions are up 18% since the schema markup release.
+3,"What is the current customer acquisition cost (CAC) after optimizations, and what was it previously?",The CAC has reduced from $3.10 to $2.40 after optimizations.
+3,What is the retention rate after 7 days?,Retention after 7 days sits at 78%.
+3,"When does campaign iteration 2 go live, and in which time zone?",Campaign iteration 2 goes live tomorrow at 09 AM KST.
+3,What is the cost per query for the local stack compared to API usage?,The local stack is 68% cheaper than API usage for cost per query.
+3,What is the scheduled start date for the pilot program with the fintech group in Seoul?,The pilot program with the fintech group in Seoul is starting on May 5.
+4,What was the solution Mark S implemented for missing glyphs with Korean characters?,Mark S added Pretendard font embed for Korean characters.
+4,What metric was Helly R reviewing on the analytics overlay?,Helly R was reviewing token count per summarization level.
+4,What change did Dylan G suggest to improve readability of summarization levels?,Dylan G suggested labeling them Basic / Intermediate / Advanced.
+4,What was the memory footprint of the summarization process during Helly R's extended test?,The memory footprint peaked at 8.1 GB and remained stable under 9 GB.
+4,Which browsers experienced UI micro-lag that Dylan G fixed?,Dylan G fixed UI micro-lag after switching React memoization on the message list.
+4,What specific issue did QA mention regarding hover tooltips on Safari?,QA mentioned that hover tooltips flicker on Safari.
+4,What did Helly R add to internal builds for version tracking?,Helly R added a version watermark on the footer for internal builds.
+4,What was the user satisfaction survey result reported by Helly R after the launch?,The overall user satisfaction rating was 4.7 out of 5.
+4,What percentage week-over-week increase in average session time was reported by Mark S?,Average session time was up 22% week-over-week.
+4,What was the root cause of the blank screen issue reported by a customer in Seoul?,The root cause was an API timeout when fetching summaries with a payload greater than 2 MB.
+5,What version of the monitoring agent was deployed to production?,Updated monitoring agent v2.9 was deployed to production.
+5,What was the cause of the emoji reaction freeze issue?,The issue was caused by a race condition in the reaction-count updater.
+5,What solution was implemented to fix the emoji reaction freeze?,"The issue was patched using an atomic counter, and PR #812 was merged."
+5,What was the outcome of the QA retest after the emoji freeze fix?,The QA retest showed no freeze after 500 rapid taps.
+5,What was the scheduled time for the FAISS rebuild stress test in KST?,The stress test was scheduled for 22:00 KST.
+5,How long did the FAISS index rebuild take during the stress test?,The index rebuild completed in 11 minutes and 20 seconds.
+5,What is the target sessions for concurrent upload stress test?,The stress test for concurrent uploads is targeting 500 sessions.
+5,What was the required format change for the summary PDF footer date?,The format needed to be changed to YYYY-MM-DD for consistency with ISO.
+5,How many development and QA hours were logged for the bug fix cycle?,8 development hours and 2 QA hours were logged for this cycle.
+5,What was the average Time To First Render (TTFR) on iOS in low-power mode after the patch?,The TTFR was steady at 6.1 seconds on low-power mode.

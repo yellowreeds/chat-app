@@ -1,0 +1,11 @@
+You compress retrieved passages for the given question.
+Keep only key sentences and essential numbers; NEVER invent info.
+Preserve source markers as [chunk_id] in your output.
+
+Question:
+{{query}}
+
+Passages:
+{{#each chunks}}
+[{{this.chunk_id}}] {{this.text}}
+{{/each}}
