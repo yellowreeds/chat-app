@@ -27,11 +27,17 @@ const ChatContainer = () => {
   const combinedMessages = [
     ...messages,
     ...(aiMessages[selectedChat?._id] || []),
-  ].filter((msg) => {
-    if (seen.has(msg._id)) return false;
-    seen.add(msg._id);
-    return true;
-  }).sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
+  ]
+    // 🧠 Filter invalid system/placeholder entries
+    .filter((msg) => msg && msg._id) 
+    // 🧠 Prevent duplicates
+    .filter((msg) => {
+      if (seen.has(msg._id)) return false;
+      seen.add(msg._id);
+      return true;
+    })
+    // 🧠 Sort by time safely
+    .sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
 
   useEffect(() => {
     if (selectedChat) {
@@ -117,7 +123,6 @@ const ChatContainer = () => {
                   <a
                     href={message.file}
                     download={message.fileName}
-                    target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-400 underline"
                   >

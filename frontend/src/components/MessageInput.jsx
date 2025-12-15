@@ -13,7 +13,8 @@ const MessageInput = () => {
     if (isAiReturned) {
       setIsLoading(false);
       setText("");
-      setAiReturned(false); // ✅ Reset AI state
+      toast.dismiss();
+      setAiReturned(false);
     }
   }, [isAiReturned]);
 
@@ -52,8 +53,7 @@ const MessageInput = () => {
 
     if (isAIMessage) {
       setIsLoading(true);
-      setText("Loading...");
-      setAiReturned(false);
+      toast.loading("Running command....");
     }
 
     try {

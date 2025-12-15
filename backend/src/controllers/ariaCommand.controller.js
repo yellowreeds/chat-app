@@ -10,10 +10,14 @@ import { getReceiverSocketId, io } from "../lib/socket.js";
 import { asyncHandler } from "./utils.controller.js";
 
 import { runAriaChat } from "../services/ai/ariaService.js";
+import { ariaChatAgent } from "../tools/ariaChatAgent.js";
 import { runRagQuery, saveGroupMessagesToVectorDB } from "../services/ai/ragService.js";
-import { runHybridSummarizationPipeline } from "../services/ai/faissSummarizationService.js";
+import { runHybridSummarizationPipeline, runDocumentSummarizationPipeline } from "../services/ai/faissSummarizationService.js";
 import { runBenchmarkTest } from "../services/ai/benchmarkService.js"
 import { emitPrivateMessage } from "../services/socket/socketEmitter.js";
+
+import { ariaAgent } from "../tools/ariaAgent.js";
+import { HumanMessage } from "@langchain/core/messages";
 
 const AI_USER_ID = "67caafa0a72be40d48d87b65";
 
@@ -37,10 +41,16 @@ export const handleAriaCommand = asyncHandler(async (req, res) => {
     //   return res.status(200).json({ ok: true, message: "Benchmark completed. Check logs." });
     // }
 
+    // if (text.startsWith("@aria-benchmark")) {
+    //   console.log("⚡ Running RAG benchmark...");
+    //   await runBenchmarkTest();
+    //   return res.status(200).json({ ok: true, message: "Benchmark completed. Check logs." });
+    // }
+
     if (text.startsWith("@aria-benchmark")) {
-      console.log("⚡ Running RAG benchmark...");
-      await runBenchmarkTest();
-      return res.status(200).json({ ok: true, message: "Benchmark completed. Check logs." });
+      console.log("📊 Running automatic RAG benchmarking...");
+      const result = await runBenchmarkTest(groupId);
+      aiResponseMessage = result || "⚠️ Benchmark failed.";
     }
 
     /* ─────────────────────────────── @aria-saved ─────────────────────────────────── */
@@ -54,16 +64,38 @@ export const handleAriaCommand = asyncHandler(async (req, res) => {
     else if (text.startsWith("@aria-doc/")) {
       const query = text.replace("@aria-doc/", "").trim();
       console.log(`📄 Running DOCUMENT RAG query: ${query}`);
-      const answer = await runRagQuery(groupId, query, 5, "doc");
-      aiResponseMessage = answer || "⚠️ No answer found in document RAG.";
+
+      const ragResult = await runRagQuery(groupId, query, 5, "doc");
+
+      let finalText = "";
+
+      // Case 1: If RAG returned a plain string fallback
+      if (typeof ragResult === "string") {
+        finalText = ragResult;
+      }
+      // Case 2: Normal RAG object → use ONLY the answer
+      else {
+        finalText = ragResult.answer || "⚠️ No answer returned.";
+      }
+
+      aiResponseMessage = finalText.trim();
     }
+
 
     /* ─────────────────────────────── @aria-chat/ ─────────────────────────────────── */
     else if (text.startsWith("@aria-chat/")) {
       const query = text.replace("@aria-chat/", "").trim();
-      console.log(`💬 Running CHAT RAG query: ${query}`);
-      const answer = await runRagQuery(groupId, query, 5, "chat");
-      aiResponseMessage = answer || "⚠️ No answer found in chat RAG.";
+      console.log(`💬 Running CHAT RAG agent query: ${query}`);
+
+      const answer = await ariaChatAgent.invoke({
+        question: query,
+        groupId,
+      });
+
+      // Agent already returns final, grounded text
+      aiResponseMessage = typeof answer === "string"
+        ? answer.trim()
+        : "⚠️ No valid answer returned.";
     }
 
     /* ─────────────────────────────── @aria-compile ──────────────────────────────── */
@@ -77,18 +109,82 @@ export const handleAriaCommand = asyncHandler(async (req, res) => {
           ? "advanced"
           : "intermediate";
 
-      // Notify user quickly
+      // Notify user right away
       res.status(200).json({
         ok: true,
         message: `Hybrid summarization (${level}) started — generating PDF...`,
       });
 
-      // Run the hybrid summarizer asynchronously (saveReport = true)
-      runHybridSummarizationPipeline(groupId, level, undefined, { topK: 30, saveReport: true })
-        .then(result => console.log(`✅ ${level} summary PDF done in ${(result.duration / 1000).toFixed(2)}s`))
+      // Run summarizer async
+      runHybridSummarizationPipeline(groupId, level, undefined, {
+        topK: 100,
+        saveReport: true
+      })
+        .then(async (result) => {
+          console.log(`✅ ${level} summary PDF done in ${(result.duration / 1000).toFixed(2)}s`);
+
+          // If PDF exists → send private AI message
+          if (result.pdfUrl) {
+            console.log("📨 Preparing private PDF message...");
+
+            // 1️⃣ Create a private message in DB
+            const pdfMessage = new GroupMessage({
+              senderId: AI_USER_ID,          // System AI
+              groupId,
+              text: `The summary is ready.`,
+              file: result.pdfUrl,
+              fileName: result.pdfUrl.split("/").pop(),
+              privateTo: req.user._id  // 👈 PRIVATE MESSAGE
+            });
+
+            const saved = await pdfMessage.save();
+            const populated = await saved.populate("senderId", "fullName profilePic");
+
+            // 2️⃣ Send private socket message to ONLY requesting user
+            emitPrivateMessage(req.user._id, populated);
+
+            console.log("🤖 Sent private PDF link to user:", req.user._id);
+          }
+        })
         .catch(err => console.error("❌ Hybrid summarization error:", err));
 
       return; // prevent double response
+    }
+
+    /* ─────────────────────────────── @aria-summary-doc ──────────────────────────────── */
+    else if (text.startsWith("@aria-doc-summary")) {
+      console.log("📘 Running document summarization (PDF mode)...");
+
+      res.status(200).json({
+        ok: true,
+        message: `Document summarization started — generating PDF...`,
+      });
+
+      runDocumentSummarizationPipeline(groupId, {
+        topK: 50,
+        saveReport: true
+      })
+        .then(async (result) => {
+          console.log(`📄 Document summary PDF done in ${(result.duration / 1000).toFixed(2)}s`);
+
+          if (result.pdfUrl) {
+            const pdfMessage = new GroupMessage({
+              senderId: AI_USER_ID,
+              groupId,
+              text: `Your document summary is ready.`,
+              file: result.pdfUrl,
+              fileName: result.pdfUrl.split("/").pop(),
+              privateTo: req.user._id,
+            });
+
+            const saved = await pdfMessage.save();
+            const populated = await saved.populate("senderId", "fullName profilePic");
+            emitPrivateMessage(req.user._id, populated);
+          }
+        })
+        .catch(err => console.error("❌ Document summarization error:", err));
+
+      return;
     }
 
     // else if (text.startsWith("@aria-compile-gemini")) {
@@ -196,15 +292,18 @@ export const handleAriaCommand = asyncHandler(async (req, res) => {
     //   .catch(err => console.error("❌ Hybrid summarization error:", err));
     // return;
 
-
-
-
-
     /* ─────────────────────────────── @aria/ (General AI Query) ───────────────────── */
     else if (text.startsWith("@aria/")) {
       const query = text.replace("@aria/", "").trim();
-      console.log(`💬 Running general AI chat query: ${query}`);
-      aiResponseMessage = await runAriaChat(query);
+      console.log(`🤖 [ARIA-Agent] Processing query: ${query}`);
+
+      const result = await ariaAgent.invoke([
+        new HumanMessage(query),
+      ]);
+
+      const finalMessage = result.at(-1);
+      aiResponseMessage =
+        finalMessage?.text?.trim() || "No response generated.";
     }
 
     // ⚠️ If none of the above match

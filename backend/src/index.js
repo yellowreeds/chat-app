@@ -10,6 +10,7 @@ import { warmupModels } from "./lib/ollama.js";
 import express from "express";
 import cookieParser from "cookie-parser";
 import cors from "cors";
+import path from "path";
 
 // -----------------------------------------------------------------------------
 // ⚙️ Local Imports
@@ -35,7 +36,19 @@ app.use(express.urlencoded({ limit: "50mb", extended: true }));
 
 // Static file serving (for uploaded docs, images, etc.)
 app.use("/uploads", express.static("uploads"));
-
+app.get("/download/:file", (req, res) => {
+  const filePath = path.join(__dirname, "src/outputs", req.params.file);
+  res.setHeader(
+    "Content-Disposition",
+    `attachment; filename="${req.params.file}"`
+  );
+  res.sendFile(filePath);
+});
+const __dirname = path.resolve();
+app.use(
+  "/outputs",
+  express.static(path.join(__dirname, "src/outputs"))
+);
 // -----------------------------------------------------------------------------
 // 🌐 CORS Configuration
 // -----------------------------------------------------------------------------

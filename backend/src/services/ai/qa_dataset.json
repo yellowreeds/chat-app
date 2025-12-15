@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "question": "What was the estimated value of the global AI market in 2024?",
+    "answer": "The report states that the global AI market was valued at approximately USD 200 billion in 2024."
+  },
+  {
+    "id": 2,
+    "question": "What is the projected size of the global AI market by 2030?",
+    "answer": "It is projected to exceed USD 1.2 trillion by 2030."
+  },
+  {
+    "id": 3,
+    "question": "According to the Enterprise Innovation Survey 2024, what percentage of companies reduced supply-chain forecast errors using AI?",
+    "answer": "According to the survey, 82 percent of companies integrating AI into supply-chain management reduced forecast errors by at least 20 percent."
+  },
+  {
+    "id": 4,
+    "question": "What are the three guiding principles of the report\u2019s digital transformation strategy?",
+    "answer": "The guiding principles are interoperability and scalability, data governance and ethics, and human-centered innovation."
+  },
+  {
+    "id": 5,
+    "question": "By 2030, what percentage of mid-sized enterprises are expected to rely on hybrid AI architectures?",
+    "answer": "Over 70 percent of mid-sized enterprises are expected to use hybrid AI architectures by 2030."
+  },
+  {
+    "id": 6,
+    "question": "What characterized the digital revolution in the early 2000s?",
+    "answer": "It was characterized by basic automation through ERP systems, email, and early web technologies."
+  },
+  {
+    "id": 7,
+    "question": "What technological shift defined the 2010s?",
+    "answer": "The shift to cloud computing and big-data analytics marked the transition to intelligence automation."
+  },
+  {
+    "id": 8,
+    "question": "What improvement did Novatech Industries see in on-time delivery after adopting a cloud ML forecasting engine?",
+    "answer": "Novatech improved its on-time delivery rate by 23 percent."
+  },
+  {
+    "id": 9,
+    "question": "What reduction in stockouts did ShopNext Global achieve using dynamic pricing?",
+    "answer": "ShopNext Global achieved a 35 percent reduction in stockouts."
+  },
+  {
+    "id": 10,
+    "question": "What is the primary purpose of edge computing?",
+    "answer": "Edge computing processes data closer to where it is generated to reduce latency and network congestion."
+  },
+  {
+    "id": 11,
+    "question": "What is the main benefit of serverless computing?",
+    "answer": "Serverless computing automatically scales workloads without requiring developers to manage servers."
+  },
+  {
+    "id": 12,
+    "question": "What does Zero Trust Architecture emphasize?",
+    "answer": "Zero Trust emphasizes \u201cnever trust, always verify,\u201d requiring continuous authentication and encryption."
+  },
+  {
+    "id": 13,
+    "question": "In a 2025 workforce study, what percentage of employees reported higher job satisfaction using AI tools?",
+    "answer": "Sixty percent of employees reported higher satisfaction when using AI-assisted decision tools."
+  },
+  {
+    "id": 14,
+    "question": "What is the pilot stage of AI adoption focused on?",
+    "answer": "It focuses on identifying repetitive, high-volume tasks suitable for automation."
+  },
+  {
+    "id": 15,
+    "question": "What does ModelOps automate?",
+    "answer": "ModelOps automates the evaluation, versioning, deployment, and monitoring of AI models."
+  },
+  {
+    "id": 16,
+    "question": "What accuracy level do certain oncology AI models reportedly surpass?",
+    "answer": "Some convolutional neural networks surpass 95 percent accuracy for specific cancer types."
+  },
+  {
+    "id": 17,
+    "question": "What is the central purpose of Infrastructure as Code?",
+    "answer": "IaC enables reproducible, version-controlled infrastructure deployments using declarative scripts."
+  },
+  {
+    "id": 18,
+    "question": "Which compliance frameworks must cloud-based AI systems often follow?",
+    "answer": "They often follow frameworks such as ISO/IEC 27001, SOC 2 Type II, HIPAA, and GDPR."
+  },
+  {
+    "id": 19,
+    "question": "What key risk is associated with rapid cloud migration?",
+    "answer": "Rapid migration can introduce cybersecurity vulnerabilities."
+  },
+  {
+    "id": 20,
+    "question": "What is the primary aim of Responsible AI?",
+    "answer": "Responsible AI ensures fairness, transparency, accountability, privacy, and security in AI systems."
+  },
+  {
+    "id": 21,
+    "question": "What do SHAP and LIME help explain?",
+    "answer": "They explain model predictions by revealing which features influence outcomes."
+  },
+  {
+    "id": 22,
+    "question": "What is quantum decoherence?",
+    "answer": "Decoherence is the loss of quantum information due to interaction with the environment."
+  },
+  {
+    "id": 23,
+    "question": "What is a spiking neural network?",
+    "answer": "It is a neuromorphic architecture that mimics biological neurons using discrete electrical spikes."
+  },
+  {
+    "id": 24,
+    "question": "What productivity gain can developers achieve using GenAI tools?",
+    "answer": "Developers can achieve productivity increases of 40 to 60 percent."
+  },
+  {
+    "id": 25,
+    "question": "What does the Optimization stage of transformation emphasize?",
+    "answer": "It emphasizes continuous improvement through feedback loops, analytics, and model retraining."
+  },
+  {
+    "id": 26,
+    "question": "Why is digital transformation described as both cultural and structural?",
+    "answer": "The report explains that transformation requires employees to develop new skills, leaders to adopt data literacy, and IT systems to evolve into flexible, analytics-ready architectures."
+  },
+  {
+    "id": 27,
+    "question": "How does technological convergence create new business models?",
+    "answer": "It links AI, IoT, and blockchain to enable innovations like predictive maintenance and tokenized assets."
+  },
+  {
+    "id": 28,
+    "question": "Why do many digital initiatives fail to scale beyond pilots?",
+    "answer": "Common causes include weak executive sponsorship, lack of alignment between business and IT, poor data quality, and insufficient internal capability building."
+  },
+  {
+    "id": 29,
+    "question": "How does AI shift organizational behavior from experimentation to optimization?",
+    "answer": "AI evolves from isolated pilots into integrated systems requiring stability, monitoring, compliance, and ongoing retraining."
+  },
+  {
+    "id": 30,
+    "question": "What role does edge computing play in hybrid architectures?",
+    "answer": "Edge computing handles time-sensitive processing locally while the cloud manages large-scale computation."
+  },
+  {
+    "id": 31,
+    "question": "How does MLOps improve enterprise AI reliability?",
+    "answer": "MLOps ensures models are monitored, versioned, reproducible, and retrained automatically."
+  },
+  {
+    "id": 32,
+    "question": "What defines the partnership model of human\u2013AI collaboration?",
+    "answer": "It positions AI as an advisory tool while humans apply judgment and contextual reasoning."
+  },
+  {
+    "id": 33,
+    "question": "Why is fairness a critical pillar of Responsible AI?",
+    "answer": "Fairness prevents algorithms from reinforcing harmful biases and ensures equitable outcomes."
+  },
+  {
+    "id": 34,
+    "question": "How does quantum computing potentially accelerate AI training?",
+    "answer": "Quantum processors can explore multiple states simultaneously, accelerating optimization of large parameter spaces."
+  },
+  {
+    "id": 35,
+    "question": "Why is generative AI considered a catalyst for creativity?",
+    "answer": "GenAI automates routine content work, allowing humans to focus on creative thinking and rapid prototyping."
+  },
+  {
+    "id": 36,
+    "question": "Why is change management essential to digital transformation success?",
+    "answer": "Because human resistance, rather than technical issues, is often the main barrier to successful adoption."
+  },
+  {
+    "id": 37,
+    "question": "How does a digital maturity model help organizations evolve?",
+    "answer": "It provides structured scoring across leadership, infrastructure, data management, and culture."
+  },
+  {
+    "id": 38,
+    "question": "Why are skill shortages a major obstacle to digital transformation?",
+    "answer": "New technologies require specialized expertise that is not yet widely available."
+  },
+  {
+    "id": 39,
+    "question": "What societal risks and benefits accompany AI-driven transformation?",
+    "answer": "AI creates jobs and sustainability improvements but may also cause displacement and ethical concerns."
+  },
+  {
+    "id": 40,
+    "question": "How does continuous adaptation contribute to long-term competitiveness?",
+    "answer": "It ensures organizations evolve with technological change and avoid obsolescence."
+  },
+  {
+    "id": 41,
+    "question": "How do interoperability and cloud scalability support enterprise-wide AI adoption?",
+    "answer": "Interoperability connects systems across departments, while cloud scalability provides compute power for organization-wide AI."
+  },
+  {
+    "id": 42,
+    "question": "How do Responsible AI principles mitigate risks of generative AI?",
+    "answer": "They reduce risks like hallucination and IP issues through transparency, fairness audits, and human oversight."
+  },
+  {
+    "id": 43,
+    "question": "Why does human\u2013AI collaboration depend on strong change management?",
+    "answer": "Employees need trust and readiness to adopt AI-driven workflows, which change management facilitates."
+  },
+  {
+    "id": 44,
+    "question": "How does quantum computing enhance cloud-based AI infrastructures?",
+    "answer": "Quantum techniques could accelerate model optimization, complementing cloud-based distributed AI systems."
+  },
+  {
+    "id": 45,
+    "question": "How does digital maturity measurement help resolve data silos and skill shortages?",
+    "answer": "It highlights weaknesses like fragmented data and skill gaps, guiding targeted investments."
+  },
+  {
+    "id": 46,
+    "question": "How do economic drivers influence the need for Responsible AI governance?",
+    "answer": "Competitive pressure and personalization demands heighten AI use, increasing ethical and legal risks."
+  },
+  {
+    "id": 47,
+    "question": "How do pilot-stage AI projects contribute to enterprise-wide optimization?",
+    "answer": "Pilots provide proof-of-value that supports scaling into enterprise integration frameworks."
+  },
+  {
+    "id": 48,
+    "question": "How does cloud economics relate to sustainability goals?",
+    "answer": "Efficient resource use reduces energy waste, supporting green computing initiatives."
+  },
+  {
+    "id": 49,
+    "question": "How does generative AI support innovation metrics of digital maturity frameworks?",
+    "answer": "GenAI accelerates creation of new digital products and rapid experimentation cycles."
+  },
+  {
+    "id": 50,
+    "question": "How do conclusions in Section 14 reinforce earlier barriers discussed in Section 12?",
+    "answer": "They emphasize that integration, governance, and cultural resilience are key to overcoming obstacles like data silos and resistance."
+  }
+]

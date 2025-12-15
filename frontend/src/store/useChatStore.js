@@ -120,6 +120,10 @@ export const useChatStore = create((set, get) => ({
     const { authUser } = useAuthStore.getState();
     if (!selectedChat || !authUser) return;
 
+    const isAICommand =
+      messageData.text?.startsWith("@aria/") ||
+      messageData.text?.startsWith("@aria-");
+
     try {
       const endpoint = selectedChat.isGroup
         ? `/groups/${selectedChat._id}/send?groupId=${selectedChat._id}`
@@ -133,7 +137,13 @@ export const useChatStore = create((set, get) => ({
         headers: { "Content-Type": "multipart/form-data" },
       });
 
-      // normalize message
+      // 🧠 AI COMMANDS SHOULD NOT BE PUSHED INTO CHAT
+      if (isAICommand && !res.data?.result) {
+        toast.success(res.data.message || "AI task started.");
+        return; // ⬅️ STOP HERE
+      }
+
+      // 🟢 NORMAL USER MESSAGE FLOW
       const newMsg = res.data?.result || res.data;
       if (!newMsg) return;
 
